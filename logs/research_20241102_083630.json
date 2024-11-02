@@ -1,0 +1,12 @@
+{
+  "timestamp": "2024-11-02T08:36:30.957779",
+  "trending_pairs": {},
+  "profitable_wallets": {},
+  "analysis_parameters": {
+    "min_sol_balance": 10.0,
+    "min_trades_day": 5,
+    "min_success_rate": 0.7,
+    "min_profit_trade": 0.02,
+    "analysis_period_days": 7
+  }
+}

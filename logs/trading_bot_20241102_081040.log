@@ -1,0 +1,22 @@
+2024-11-02 08:10:40,583 - INFO - ============================================================
+2024-11-02 08:10:40,584 - INFO - Solana Trading Bot Starting
+2024-11-02 08:10:40,584 - INFO - ============================================================
+2024-11-02 08:10:40,584 - INFO - Mode: RESEARCH
+2024-11-02 08:10:40,584 - INFO - Log file: logs/trading_bot_20241102_081040.log
+2024-11-02 08:10:40,584 - INFO - Log level: INFO
+2024-11-02 08:10:40,584 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 08:10:40,584 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 08:10:40,584 - INFO - ------------------------------------------------------------
+2024-11-02 08:10:40,584 - INFO - Starting in RESEARCH mode...
+2024-11-02 08:10:40,584 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 08:10:40,584 - INFO - Beginning wallet analysis...
+2024-11-02 08:10:40,584 - INFO - Starting enhanced Solana wallet discovery...
+2024-11-02 08:10:40,641 - ERROR - DexScreener API error: 403
+2024-11-02 08:10:40,641 - INFO - 
+Discovery Summary:
+- Analyzed 0 trending pairs
+- Found 0 profitable wallets
+2024-11-02 08:10:40,642 - INFO - Research results saved to logs/research_20241102_081040.json
+2024-11-02 08:10:40,642 - INFO - Research completed successfully
+2024-11-02 08:10:40,642 - INFO - Results have been saved to the logs directory
+2024-11-02 08:10:40,642 - INFO - Bot shutdown complete

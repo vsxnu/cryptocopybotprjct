@@ -1,0 +1,37 @@
+2024-11-02 07:54:28,261 - INFO - ============================================================
+2024-11-02 07:54:28,261 - INFO - Solana Trading Bot Starting
+2024-11-02 07:54:28,261 - INFO - ============================================================
+2024-11-02 07:54:28,261 - INFO - Log file: logs/trading_bot_20241102_075428.log
+2024-11-02 07:54:28,261 - INFO - Log level: INFO
+2024-11-02 07:54:28,261 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 07:54:28,261 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 07:54:28,261 - INFO - ------------------------------------------------------------
+2024-11-02 07:54:28,261 - INFO - Checking configuration...
+2024-11-02 07:54:28,261 - INFO - Found existing config/tracked-wallets.json
+2024-11-02 07:54:28,261 - INFO - Found existing config/token-whitelist.json
+2024-11-02 07:54:28,261 - INFO - Configuration check completed successfully
+2024-11-02 07:54:28,568 - INFO - Initializing wallet finder...
+2024-11-02 07:54:28,572 - INFO - Using 3 tracked wallets from config
+2024-11-02 07:54:28,573 - INFO - Starting Solana wallet discovery...
+2024-11-02 07:54:28,573 - INFO - Using 3 tracked wallets from config
+2024-11-02 07:54:29,021 - INFO - Wallet 5ZPBHzMr... does not meet criteria
+2024-11-02 07:54:30,370 - INFO - Wallet BQduNyeh... does not meet criteria
+2024-11-02 07:54:31,700 - INFO - Wallet HxFLKUAm... does not meet criteria
+2024-11-02 07:54:32,701 - INFO - Initializing trading bot...
+2024-11-02 07:54:32,702 - INFO - Connected to Solana RPC: https://api.mainnet-beta.solana.com
+2024-11-02 07:54:32,702 - WARNING - No private key found. Running in monitoring mode only.
+2024-11-02 07:54:32,702 - INFO - Successfully loaded 3 tracked wallets
+2024-11-02 07:54:32,703 - INFO - Loaded 5 whitelisted tokens
+2024-11-02 07:54:32,703 - INFO - ------------------------------------------------------------
+2024-11-02 07:54:32,703 - INFO - Trading Bot Configuration:
+2024-11-02 07:54:32,703 - INFO - Trading Enabled: False
+2024-11-02 07:54:32,703 - INFO - Tracked Wallets: 3
+2024-11-02 07:54:32,703 - INFO - Token Whitelist: 5 tokens
+2024-11-02 07:54:32,703 - INFO - RPC Rate Limit: 6 requests/minute
+2024-11-02 07:54:32,703 - INFO - Using Jupiter Price API: True
+2024-11-02 07:54:32,703 - INFO - Monitoring Interval: 60 seconds
+2024-11-02 07:54:32,703 - INFO - ------------------------------------------------------------
+2024-11-02 07:54:32,704 - INFO - +==========================================================+
+2024-11-02 07:54:32,704 - INFO - |                    BOT STARTED                           |
+2024-11-02 07:54:32,704 - INFO - +==========================================================+
+2024-11-02 07:54:32,704 - INFO - Monitoring interval: 60 seconds

@@ -1,0 +1,30 @@
+2024-11-02 08:37:43,078 - INFO - ============================================================
+2024-11-02 08:37:43,078 - INFO - Solana Trading Bot Starting
+2024-11-02 08:37:43,078 - INFO - ============================================================
+2024-11-02 08:37:43,078 - INFO - Mode: RESEARCH
+2024-11-02 08:37:43,078 - INFO - Log file: logs/trading_bot_20241102_083742.log
+2024-11-02 08:37:43,078 - INFO - Log level: INFO
+2024-11-02 08:37:43,078 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 08:37:43,078 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 08:37:43,078 - INFO - ------------------------------------------------------------
+2024-11-02 08:37:43,078 - INFO - Starting in RESEARCH mode...
+2024-11-02 08:37:43,078 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 08:37:43,078 - INFO - Beginning wallet analysis...
+2024-11-02 08:37:43,078 - INFO - 
+================================================================================
+2024-11-02 08:37:43,078 - INFO - STARTING ENHANCED SOLANA WALLET DISCOVERY
+2024-11-02 08:37:43,078 - INFO - ================================================================================
+2024-11-02 08:37:43,078 - INFO - 
+Step 1: Fetching trending pairs...
+2024-11-02 08:37:43,078 - INFO - 
+================================================================================
+2024-11-02 08:37:43,078 - INFO - FETCHING TRENDING PAIRS FROM DEXSCREENER
+2024-11-02 08:37:43,078 - INFO - ================================================================================
+2024-11-02 08:37:43,407 - ERROR - Error fetching trending pairs: 'NoneType' object is not iterable
+2024-11-02 08:37:43,407 - INFO - 
+Step 2: Analyzing trading activity...
+2024-11-02 08:37:43,408 - INFO - 
+Detailed research results saved to: logs/research_20241102_083743.json
+2024-11-02 08:37:43,408 - INFO - Research completed successfully
+2024-11-02 08:37:43,408 - INFO - Results have been saved to the logs directory
+2024-11-02 08:37:43,408 - INFO - Bot shutdown complete

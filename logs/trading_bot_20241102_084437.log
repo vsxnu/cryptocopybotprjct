@@ -1,0 +1,477 @@
+2024-11-02 08:44:37,538 - INFO - ============================================================
+2024-11-02 08:44:37,538 - INFO - Solana Trading Bot Starting
+2024-11-02 08:44:37,538 - INFO - ============================================================
+2024-11-02 08:44:37,538 - INFO - Mode: RESEARCH
+2024-11-02 08:44:37,538 - INFO - Log file: logs/trading_bot_20241102_084437.log
+2024-11-02 08:44:37,538 - INFO - Log level: INFO
+2024-11-02 08:44:37,538 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 08:44:37,538 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 08:44:37,538 - INFO - ------------------------------------------------------------
+2024-11-02 08:44:37,538 - INFO - Starting in RESEARCH mode...
+2024-11-02 08:44:37,538 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 08:44:37,538 - INFO - Beginning wallet analysis...
+2024-11-02 08:44:37,538 - INFO - 
+================================================================================
+2024-11-02 08:44:37,538 - INFO - STARTING ENHANCED SOLANA WALLET DISCOVERY
+2024-11-02 08:44:37,538 - INFO - ================================================================================
+2024-11-02 08:44:37,538 - INFO - 
+Step 1: Fetching trending pairs...
+2024-11-02 08:44:37,538 - INFO - 
+================================================================================
+2024-11-02 08:44:37,538 - INFO - FETCHING TRENDING PAIRS FROM DEXSCREENER
+2024-11-02 08:44:37,538 - INFO - ================================================================================
+2024-11-02 08:44:37,595 - INFO - 
+Found 26 Solana tokens:
+2024-11-02 08:44:37,595 - INFO - --------------------------------------------------------------------------------
+2024-11-02 08:44:37,595 - INFO - 
+1. Token Details:
+2024-11-02 08:44:37,595 - INFO -    Address: 5NHjk6m1aQ46gprMfuRtFUCwCYNKKFeZABewkrUZ9cmr
+2024-11-02 08:44:37,595 - INFO -    URL: https://dexscreener.com/solana/5nhjk6m1aq46gprmfurtfucwcynkkfezabewkruz9cmr
+2024-11-02 08:44:37,595 - INFO -    Description: $Conan did a fantastic job and we're very honored to have Conan here and to have given Conan a certificate and an award
+2024-11-02 08:44:37,596 - INFO -    Links:
+2024-11-02 08:44:37,596 - INFO -       twitter: https://x.com/sol_meme2
+2024-11-02 08:44:37,659 - INFO - 
+   Trading Information:
+2024-11-02 08:44:37,659 - INFO -       DEX: raydium
+2024-11-02 08:44:37,659 - INFO -       Pair: Conan/SOL
+2024-11-02 08:44:37,659 - INFO -       Price: $0.01154
+2024-11-02 08:44:37,659 - INFO -       24h Volume: 418779.92
+2024-11-02 08:44:37,659 - INFO -       Liquidity: 403962.69
+2024-11-02 08:44:37,659 - INFO -       24h Transactions: 1151 buys, 223 sells
+2024-11-02 08:44:38,161 - INFO - 
+2. Token Details:
+2024-11-02 08:44:38,161 - INFO -    Address: BvAUdLXSkRhvjFn1CczZV2JRXztXvWPTrWUgJWr1pump
+2024-11-02 08:44:38,161 - INFO -    URL: https://dexscreener.com/solana/bvaudlxskrhvjfn1cczzv2jrxztxvwptrwugjwr1pump
+2024-11-02 08:44:38,161 - INFO -    Description: bro is a master of deception.
+2024-11-02 08:44:38,397 - INFO - 
+   Trading Information:
+2024-11-02 08:44:38,397 - INFO -       DEX: raydium
+2024-11-02 08:44:38,397 - INFO -       Pair: CAT/SOL
+2024-11-02 08:44:38,397 - INFO -       Price: $0.00002835
+2024-11-02 08:44:38,397 - INFO -       24h Volume: 85041.99
+2024-11-02 08:44:38,397 - INFO -       Liquidity: 17749.32
+2024-11-02 08:44:38,397 - INFO -       24h Transactions: 379 buys, 285 sells
+2024-11-02 08:44:38,898 - INFO - 
+3. Token Details:
+2024-11-02 08:44:38,899 - INFO -    Address: Tq9DKzhmspcTya6PCiSTMuUVNzvLs1tYUhyxHPfpump
+2024-11-02 08:44:38,899 - INFO -    URL: https://dexscreener.com/solana/tq9dkzhmspctya6pcistmuuvnzvls1tyuhyxhpfpump
+2024-11-02 08:44:38,899 - INFO -    Description: It means “no light” in italian.
+2024-11-02 08:44:38,899 - INFO -    Links:
+2024-11-02 08:44:38,899 - INFO -       telegram: https://t.me/NOLUCE_portal
+2024-11-02 08:44:39,386 - INFO - 
+   Trading Information:
+2024-11-02 08:44:39,387 - INFO -       DEX: raydium
+2024-11-02 08:44:39,387 - INFO -       Pair: NOLUCE/SOL
+2024-11-02 08:44:39,387 - INFO -       Price: $0.00006986
+2024-11-02 08:44:39,387 - INFO -       24h Volume: 14828.75
+2024-11-02 08:44:39,387 - INFO -       Liquidity: 27642.95
+2024-11-02 08:44:39,387 - INFO -       24h Transactions: 121 buys, 78 sells
+2024-11-02 08:44:39,887 - INFO - 
+4. Token Details:
+2024-11-02 08:44:39,888 - INFO -    Address: FhWi6KCCsz7SnuGQUUoNS5NeJZQ9taDNMcSbRcEvpump
+2024-11-02 08:44:39,888 - INFO -    URL: https://dexscreener.com/solana/fhwi6kccsz7snugquuons5nejzq9tadnmcsbrcevpump
+2024-11-02 08:44:39,888 - INFO -    Description: Make America Pop Again 🇺🇸
+2024-11-02 08:44:39,888 - INFO -    Links:
+2024-11-02 08:44:39,888 - INFO -       twitter: https://x.com/realpoptrump
+2024-11-02 08:44:39,888 - INFO -       telegram: https://t.me/realpoptrump
+2024-11-02 08:44:40,306 - INFO - 
+   Trading Information:
+2024-11-02 08:44:40,306 - INFO -       DEX: raydium
+2024-11-02 08:44:40,306 - INFO -       Pair: POPTRUMP/SOL
+2024-11-02 08:44:40,306 - INFO -       Price: $0.0001993
+2024-11-02 08:44:40,306 - INFO -       24h Volume: 262128.26
+2024-11-02 08:44:40,306 - INFO -       Liquidity: 23296.81
+2024-11-02 08:44:40,306 - INFO -       24h Transactions: 5393 buys, 195 sells
+2024-11-02 08:44:40,807 - INFO - 
+5. Token Details:
+2024-11-02 08:44:40,807 - INFO -    Address: 4PwqXRQGjtTpZho2BpnQWarfB2GHJiTepgvCBw1Jpump
+2024-11-02 08:44:40,807 - INFO -    URL: https://dexscreener.com/solana/4pwqxrqgjttpzho2bpnqwarfb2ghjitepgvcbw1jpump
+2024-11-02 08:44:40,807 - INFO -    Links:
+2024-11-02 08:44:40,807 - INFO -       Reddit: https://www.reddit.com/r/copypasta/comments/ix6fcw/not_gonna_be_active_on_discord_tonight_im_meeting/
+2024-11-02 08:44:40,807 - INFO -       twitter: https://x.com/search?q=Not%20gonna%20be%20active%20on%20Discord%20tonight&src=typed_query
+2024-11-02 08:44:40,865 - INFO - 
+   Trading Information:
+2024-11-02 08:44:40,865 - INFO -       DEX: raydium
+2024-11-02 08:44:40,865 - INFO -       Pair: ALPHA/SOL
+2024-11-02 08:44:40,865 - INFO -       Price: $0.00004139
+2024-11-02 08:44:40,865 - INFO -       24h Volume: 573251.12
+2024-11-02 08:44:40,865 - INFO -       Liquidity: 22228.6
+2024-11-02 08:44:40,866 - INFO -       24h Transactions: 1933 buys, 1752 sells
+2024-11-02 08:44:41,367 - INFO - 
+6. Token Details:
+2024-11-02 08:44:41,367 - INFO -    Address: 4YiQbBMJ1vi1goVi8JXo6J9mAZ6h6KALDZnx44yYpump
+2024-11-02 08:44:41,367 - INFO -    URL: https://dexscreener.com/solana/4yiqbbmj1vi1govi8jxo6j9maz6h6kaldznx44yypump
+2024-11-02 08:44:41,367 - INFO -    Description: AI-Powered Directory Map for pump.
+2024-11-02 08:44:41,367 - INFO -    Links:
+2024-11-02 08:44:41,367 - INFO -       Website: https://dose.directory
+2024-11-02 08:44:41,367 - INFO -       twitter: https://x.com/DoseDirectory
+2024-11-02 08:44:41,367 - INFO -       telegram: https://t.me/DoseDirectory
+2024-11-02 08:44:41,390 - INFO - 
+   Trading Information:
+2024-11-02 08:44:41,390 - INFO -       DEX: raydium
+2024-11-02 08:44:41,390 - INFO -       Pair: DOSE/SOL
+2024-11-02 08:44:41,390 - INFO -       Price: $0.0001453
+2024-11-02 08:44:41,391 - INFO -       24h Volume: 139090.18
+2024-11-02 08:44:41,391 - INFO -       Liquidity: 40255.56
+2024-11-02 08:44:41,391 - INFO -       24h Transactions: 606 buys, 418 sells
+2024-11-02 08:44:41,391 - INFO -       DEX: meteora
+2024-11-02 08:44:41,391 - INFO -       Pair: DOSE/SOL
+2024-11-02 08:44:41,391 - INFO -       Price: $0.0001437
+2024-11-02 08:44:41,391 - INFO -       24h Volume: 68.65
+2024-11-02 08:44:41,391 - INFO -       Liquidity: 116.23
+2024-11-02 08:44:41,391 - INFO -       24h Transactions: 25 buys, 2 sells
+2024-11-02 08:44:41,892 - INFO - 
+7. Token Details:
+2024-11-02 08:44:41,892 - INFO -    Address: ABDoiSudvFjjJ25rtXn8V2b6QGrH59KN6thAbsPvpump
+2024-11-02 08:44:41,892 - INFO -    URL: https://dexscreener.com/solana/abdoisudvfjjj25rtxn8v2b6qgrh59kn6thabspvpump
+2024-11-02 08:44:41,892 - INFO -    Description: ART & GOOD VIBES! - Suwi 🌞, a sunny creature looking to brighten your day! 🌈✨
+2024-11-02 08:44:41,892 - INFO -    Links:
+2024-11-02 08:44:41,892 - INFO -       Website: https://suwi.art
+2024-11-02 08:44:41,892 - INFO -       LINKTREE: https://linktr.ee/SuwiOnSOl
+2024-11-02 08:44:41,892 - INFO -       twitter: https://x.com/SuwiOnSol
+2024-11-02 08:44:41,892 - INFO -       telegram: https://t.me/suwionsolana
+2024-11-02 08:44:41,958 - INFO - 
+   Trading Information:
+2024-11-02 08:44:41,959 - INFO -       DEX: raydium
+2024-11-02 08:44:41,959 - INFO -       Pair: suwi/SOL
+2024-11-02 08:44:41,959 - INFO -       Price: $0.002070
+2024-11-02 08:44:41,959 - INFO -       24h Volume: 2112137.21
+2024-11-02 08:44:41,959 - INFO -       Liquidity: 158422.98
+2024-11-02 08:44:41,959 - INFO -       24h Transactions: 2696 buys, 2473 sells
+2024-11-02 08:44:41,959 - INFO -       DEX: meteora
+2024-11-02 08:44:41,959 - INFO -       Pair: suwi/SOL
+2024-11-02 08:44:41,959 - INFO -       Price: $0.002039
+2024-11-02 08:44:41,959 - INFO -       24h Volume: 106635.71
+2024-11-02 08:44:41,959 - INFO -       Liquidity: 93920.64
+2024-11-02 08:44:41,959 - INFO -       24h Transactions: 291 buys, 78 sells
+2024-11-02 08:44:41,959 - INFO -       DEX: meteora
+2024-11-02 08:44:41,959 - INFO -       Pair: suwi/SOL
+2024-11-02 08:44:41,960 - INFO -       Price: $0.002105
+2024-11-02 08:44:41,960 - INFO -       24h Volume: 211.25
+2024-11-02 08:44:41,960 - INFO -       Liquidity: 469.11
+2024-11-02 08:44:41,960 - INFO -       24h Transactions: 5 buys, 8 sells
+2024-11-02 08:44:42,461 - INFO - 
+8. Token Details:
+2024-11-02 08:44:42,462 - INFO -    Address: 8kMaHawUsv3ejJRe1fAjTkr6gNCHf3a9QgZvd3Tspump
+2024-11-02 08:44:42,462 - INFO -    URL: https://dexscreener.com/solana/8kmahawusv3ejjre1fajtkr6gnchf3a9qgzvd3tspump
+2024-11-02 08:44:42,462 - INFO -    Description: 45th and 47th President of the United States of America
+2024-11-02 08:44:42,462 - INFO -    Links:
+2024-11-02 08:44:42,462 - INFO -       twitter: https://x.com/TrumpSOL47
+2024-11-02 08:44:42,462 - INFO -       telegram: https://t.me/DonaldJTrumpPortal
+2024-11-02 08:44:42,484 - INFO - 
+   Trading Information:
+2024-11-02 08:44:42,484 - INFO -       DEX: raydium
+2024-11-02 08:44:42,484 - INFO -       Pair: $TRUMP47/SOL
+2024-11-02 08:44:42,484 - INFO -       Price: $0.00005424
+2024-11-02 08:44:42,484 - INFO -       24h Volume: 95776.68
+2024-11-02 08:44:42,484 - INFO -       Liquidity: 24488.93
+2024-11-02 08:44:42,484 - INFO -       24h Transactions: 358 buys, 271 sells
+2024-11-02 08:44:42,986 - INFO - 
+9. Token Details:
+2024-11-02 08:44:42,986 - INFO -    Address: 2sRjZSwBQ3phGNqdYroA6HLYZCawRzWWh1Tn4o1Vpump
+2024-11-02 08:44:42,986 - INFO -    URL: https://dexscreener.com/solana/2srjzswbq3phgnqdyroa6hlyzcawrzwwh1tn4o1vpump
+2024-11-02 08:44:42,986 - INFO -    Description: GIFY THE DOG
+2024-11-02 08:44:42,986 - INFO -    Links:
+2024-11-02 08:44:42,986 - INFO -       twitter: https://x.com/i/communities/1841848690043953500
+2024-11-02 08:44:43,409 - INFO - 
+   Trading Information:
+2024-11-02 08:44:43,409 - INFO -       DEX: raydium
+2024-11-02 08:44:43,409 - INFO -       Pair: GIFY/SOL
+2024-11-02 08:44:43,410 - INFO -       Price: $0.00001933
+2024-11-02 08:44:43,410 - INFO -       24h Volume: 375095.88
+2024-11-02 08:44:43,410 - INFO -       Liquidity: 15012.44
+2024-11-02 08:44:43,410 - INFO -       24h Transactions: 1316 buys, 1195 sells
+2024-11-02 08:44:43,911 - INFO - 
+10. Token Details:
+2024-11-02 08:44:43,911 - INFO -    Address: GTCKCiAm51hGpyJcDMq1VWuTZnTXpqsPaGVsULPW9eJT
+2024-11-02 08:44:43,911 - INFO -    URL: https://dexscreener.com/solana/gtckciam51hgpyjcdmq1vwutzntxpqspagvsulpw9ejt
+2024-11-02 08:44:43,911 - INFO -    Description: Discover World Liberty Financial, the cutting-edge DeFi platform supported by Donald J. Trump. Connecting you with decentralized finances best tools for secure, high-yield crypto investments. Join the financial revolution today!
+2024-11-02 08:44:43,911 - INFO -    Links:
+2024-11-02 08:44:43,911 - INFO -       telegram: https://t.me/WLFI_Sol
+2024-11-02 08:44:43,971 - INFO - 
+   Trading Information:
+2024-11-02 08:44:43,972 - INFO -       DEX: raydium
+2024-11-02 08:44:43,972 - INFO -       Pair: WLFI/SOL
+2024-11-02 08:44:43,972 - INFO -       Price: $0.01488
+2024-11-02 08:44:43,972 - INFO -       24h Volume: 550746.05
+2024-11-02 08:44:43,972 - INFO -       Liquidity: 1179030825.65
+2024-11-02 08:44:43,972 - INFO -       24h Transactions: 339 buys, 9 sells
+2024-11-02 08:44:44,473 - INFO - 
+11. Token Details:
+2024-11-02 08:44:44,473 - INFO -    Address: AN4KfBxJ7VBZ4ijai2kn5F6CUfoi2ZEoD1jT52rJpump
+2024-11-02 08:44:44,474 - INFO -    URL: https://dexscreener.com/solana/an4kfbxj7vbz4ijai2kn5f6cufoi2zeod1jt52rjpump
+2024-11-02 08:44:44,475 - INFO -    Description: the duck smokes
+2024-11-02 08:44:44,475 - INFO -    Links:
+2024-11-02 08:44:44,476 - INFO -       Website: https://pump.fun/AN4KfBxJ7VBZ4ijai2kn5F6CUfoi2ZEoD1jT52rJpump
+2024-11-02 08:44:44,476 - INFO -       twitter: https://x.com/rust021/status/1852477835836846282
+2024-11-02 08:44:44,476 - INFO -       telegram: https://t.me/SmokingAsianDuck
+2024-11-02 08:44:44,492 - INFO - 
+   Trading Information:
+2024-11-02 08:44:44,492 - INFO -       DEX: raydium
+2024-11-02 08:44:44,493 - INFO -       Pair: SAD/SOL
+2024-11-02 08:44:44,493 - INFO -       Price: $0.0001047
+2024-11-02 08:44:44,493 - INFO -       24h Volume: 851637.08
+2024-11-02 08:44:44,493 - INFO -       Liquidity: 35498.75
+2024-11-02 08:44:44,493 - INFO -       24h Transactions: 2843 buys, 2228 sells
+2024-11-02 08:44:44,994 - INFO - 
+12. Token Details:
+2024-11-02 08:44:44,994 - INFO -    Address: AHHWjmje9gi8XXQPKNVwK41KU2abwGjggz7tFEcapump
+2024-11-02 08:44:44,994 - INFO -    URL: https://dexscreener.com/solana/ahhwjmje9gi8xxqpknvwk41ku2abwgjggz7tfecapump
+2024-11-02 08:44:44,994 - INFO -    Description: THE MOST EUPHORIC COIN ON SOLANA
+2024-11-02 08:44:44,994 - INFO -    Links:
+2024-11-02 08:44:44,994 - INFO -       telegram: https://t.me/MultiDollarMemeMDMA420
+2024-11-02 08:44:45,011 - INFO - 
+   Trading Information:
+2024-11-02 08:44:45,011 - INFO -       DEX: raydium
+2024-11-02 08:44:45,011 - INFO -       Pair: MDMA420/SOL
+2024-11-02 08:44:45,011 - INFO -       Price: $0.000005736
+2024-11-02 08:44:45,011 - INFO -       24h Volume: 101729.46
+2024-11-02 08:44:45,011 - INFO -       Liquidity: 8016.87
+2024-11-02 08:44:45,011 - INFO -       24h Transactions: 544 buys, 572 sells
+2024-11-02 08:44:45,512 - INFO - 
+13. Token Details:
+2024-11-02 08:44:45,512 - INFO -    Address: 9a1Q9GsZWjbYavD4j4YTzT3LhPV9cCuJmHRYmkYupump
+2024-11-02 08:44:45,513 - INFO -    URL: https://dexscreener.com/solana/9a1q9gszwjbyavd4j4ytzt3lhpv9ccujmhrymkyupump
+2024-11-02 08:44:45,513 - INFO -    Description: Will you cooperate or cheat ? The belief expirement is a PvP game on solana based on social interactions and trust between individuals.
+2024-11-02 08:44:45,513 - INFO -    Links:
+2024-11-02 08:44:45,513 - INFO -       Website: https://belief.cool/
+2024-11-02 08:44:45,513 - INFO -       Docs: https://belief-on-sol.gitbook.io/belief-experiment
+2024-11-02 08:44:45,513 - INFO -       twitter: https://x.com/beliefexpr
+2024-11-02 08:44:46,667 - INFO - 
+   Trading Information:
+2024-11-02 08:44:46,668 - INFO -       DEX: raydium
+2024-11-02 08:44:46,668 - INFO -       Pair: BELIEF/SOL
+2024-11-02 08:44:46,668 - INFO -       Price: $0.000003622
+2024-11-02 08:44:46,668 - INFO -       24h Volume: 276087.66
+2024-11-02 08:44:46,668 - INFO -       Liquidity: 6450.75
+2024-11-02 08:44:46,668 - INFO -       24h Transactions: 922 buys, 965 sells
+2024-11-02 08:44:47,169 - INFO - 
+14. Token Details:
+2024-11-02 08:44:47,170 - INFO -    Address: f9UNvnhB4R9X9kWqhKNwo24gGgZSehhDi5uy6Hzpump
+2024-11-02 08:44:47,170 - INFO -    URL: https://dexscreener.com/solana/f9unvnhb4r9x9kwqhknwo24gggzsehhdi5uy6hzpump
+2024-11-02 08:44:47,170 - INFO -    Description: The official launch of Peanut !
+2024-11-02 08:44:47,170 - INFO -    Links:
+2024-11-02 08:44:47,170 - INFO -       twitter: https://x.com/squirrel_dad12?s=21
+2024-11-02 08:44:47,170 - INFO -       telegram: https://t.me/pnutportalofficial
+2024-11-02 08:44:47,194 - INFO - 
+   Trading Information:
+2024-11-02 08:44:47,194 - INFO -       DEX: raydium
+2024-11-02 08:44:47,194 - INFO -       Pair: PNUT/SOL
+2024-11-02 08:44:47,194 - INFO -       Price: $0.00001057
+2024-11-02 08:44:47,194 - INFO -       24h Volume: 782159.72
+2024-11-02 08:44:47,194 - INFO -       Liquidity: 11204.24
+2024-11-02 08:44:47,194 - INFO -       24h Transactions: 1201 buys, 889 sells
+2024-11-02 08:44:47,696 - INFO - 
+15. Token Details:
+2024-11-02 08:44:47,696 - INFO -    Address: xf2u6QqzWF6SzMz5nzzp74sfbVxvNSzwd3EPJXs8aF3
+2024-11-02 08:44:47,696 - INFO -    URL: https://dexscreener.com/solana/xf2u6qqzwf6szmz5nzzp74sfbvxvnszwd3epjxs8af3
+2024-11-02 08:44:47,938 - INFO - 
+   Trading Information:
+2024-11-02 08:44:47,938 - INFO -       DEX: raydium
+2024-11-02 08:44:47,938 - INFO -       Pair: mDOG/SOL
+2024-11-02 08:44:47,938 - INFO -       Price: $0.000005066
+2024-11-02 08:44:47,938 - INFO -       24h Volume: 115610.42
+2024-11-02 08:44:47,938 - INFO -       Liquidity: 7564.01
+2024-11-02 08:44:47,938 - INFO -       24h Transactions: 467 buys, 509 sells
+2024-11-02 08:44:48,440 - INFO - 
+16. Token Details:
+2024-11-02 08:44:48,440 - INFO -    Address: HSKNhLRbxuqgf7MuxDxAF2QxRJmNU88iRSDtNeuYpump
+2024-11-02 08:44:48,440 - INFO -    URL: https://dexscreener.com/solana/hsknhlrbxuqgf7muxdxaf2qxrjmnu88irsdtneuypump
+2024-11-02 08:44:48,440 - INFO -    Description: Holy Ape Holding Ak-47
+2024-11-02 08:44:48,440 - INFO -    Links:
+2024-11-02 08:44:48,440 - INFO -       twitter: https://x.com/i/communities/1852467164739211386
+2024-11-02 08:44:48,440 - INFO -       telegram: https://t.me/TheHaHaportal
+2024-11-02 08:44:48,678 - INFO - 
+   Trading Information:
+2024-11-02 08:44:48,678 - INFO -       DEX: raydium
+2024-11-02 08:44:48,678 - INFO -       Pair: HAHA/SOL
+2024-11-02 08:44:48,678 - INFO -       Price: $0.00005310
+2024-11-02 08:44:48,678 - INFO -       24h Volume: 260334.53
+2024-11-02 08:44:48,678 - INFO -       Liquidity: 24589.17
+2024-11-02 08:44:48,678 - INFO -       24h Transactions: 1282 buys, 1045 sells
+2024-11-02 08:44:49,180 - INFO - 
+17. Token Details:
+2024-11-02 08:44:49,180 - INFO -    Address: 4ygzsvcQnvypH3gz5ZwBxS9K5jsXNWL7awb1AYaUpump
+2024-11-02 08:44:49,180 - INFO -    URL: https://dexscreener.com/solana/4ygzsvcqnvyph3gz5zwbxs9k5jsxnwl7awb1ayaupump
+2024-11-02 08:44:49,180 - INFO -    Description: Trumpet will take over America, believe me.
+2024-11-02 08:44:49,180 - INFO -    Links:
+2024-11-02 08:44:49,180 - INFO -       Website: https://thepotustoken.com/
+2024-11-02 08:44:49,180 - INFO -       twitter: https://x.com/SolanaTrumpet
+2024-11-02 08:44:49,180 - INFO -       telegram: https://t.me/TRUMPETOSOLAMI
+2024-11-02 08:44:49,197 - INFO - 
+   Trading Information:
+2024-11-02 08:44:49,198 - INFO -       DEX: raydium
+2024-11-02 08:44:49,198 - INFO -       Pair: POTUS/SOL
+2024-11-02 08:44:49,198 - INFO -       Price: $0.000004849
+2024-11-02 08:44:49,198 - INFO -       24h Volume: 337520.31
+2024-11-02 08:44:49,198 - INFO -       Liquidity: 7564.28
+2024-11-02 08:44:49,198 - INFO -       24h Transactions: 1897 buys, 1148 sells
+2024-11-02 08:44:49,699 - INFO - 
+18. Token Details:
+2024-11-02 08:44:49,699 - INFO -    Address: 2Y5U2YMrWHJg8mkCL13N27S8jtxuQw2FWsxys7bGGTZK
+2024-11-02 08:44:49,699 - INFO -    URL: https://dexscreener.com/solana/2y5u2ymrwhjg8mkcl13n27s8jtxuqw2fwsxys7bggtzk
+2024-11-02 08:44:49,699 - INFO -    Description: 🌟 The Legend of the Hyrax 🌟
+
+Meet the Hyrax – not your average meme! 🦔 This little creature might look like a blend between a guinea pig and a mini rhino, but it’s no ordinary animal – it’s here to symbolize strength, resilience, and community. The Hyrax meme is our shout-out to everyone who's underestimated but keeps going strong, just like this underdog of the animal kingdom! 💪✨
+
+Here in our community, the Hyrax stands for:
+
+Persistence 🛠: Just like the Hyrax, we’re built to thrive and overcome any challenge, no matter the odds.
+Unity 🌍: Hyraxes live together in tight-knit colonies, supporting one another. In the same way, we lift each other up, from the biggest supporters to the newest members.
+Fun with a Purpose 🎉: We’re here to have fun, spread good vibes, and work toward success – all with the Hyrax as our mascot!
+Drop a 🦔 below if you’re part of the Hyrax fam and ready to make moves! Let's keep this energy going and let the world know: the Hyrax is here to stay!
+2024-11-02 08:44:49,699 - INFO -    Links:
+2024-11-02 08:44:49,699 - INFO -       Website: https://screaminghyrax.com/
+2024-11-02 08:44:49,699 - INFO -       twitter: https://x.com/ScreamingHyrax
+2024-11-02 08:44:49,727 - INFO - 
+   Trading Information:
+2024-11-02 08:44:49,727 - INFO -       DEX: raydium
+2024-11-02 08:44:49,727 - INFO -       Pair: HYRAX/SOL
+2024-11-02 08:44:49,727 - INFO -       Price: $0.0001372
+2024-11-02 08:44:49,727 - INFO -       24h Volume: 17845.82
+2024-11-02 08:44:49,727 - INFO -       Liquidity: 38757.5
+2024-11-02 08:44:49,727 - INFO -       24h Transactions: 71 buys, 55 sells
+2024-11-02 08:44:50,228 - INFO - 
+19. Token Details:
+2024-11-02 08:44:50,229 - INFO -    Address: ENiGMAPv5sR8PMYdZmt4inqD2jPhFexPR22GnzCZXtwP
+2024-11-02 08:44:50,229 - INFO -    URL: https://dexscreener.com/solana/enigmapv5sr8pmydzmt4inqd2jphfexpr22gnzczxtwp
+2024-11-02 08:44:50,229 - INFO -    Description: Those who understand need no explanation.
+
+Those who don't, will learn soon enough.
+
+Are you ready to be part of something bigger than yourself?
+2024-11-02 08:44:50,229 - INFO -    Links:
+2024-11-02 08:44:50,229 - INFO -       Website: https://enigmaai.space
+2024-11-02 08:44:50,229 - INFO -       twitter: https://x.com/Enigmaaiproject
+2024-11-02 08:44:50,229 - INFO -       telegram: https://t.me/ProjectENlGMA
+2024-11-02 08:44:50,257 - INFO - 
+   Trading Information:
+2024-11-02 08:44:50,257 - INFO -       DEX: raydium
+2024-11-02 08:44:50,257 - INFO -       Pair: ENIGMA/SOL
+2024-11-02 08:44:50,257 - INFO -       Price: $0.0001792
+2024-11-02 08:44:50,257 - INFO -       24h Volume: 740325.55
+2024-11-02 08:44:50,257 - INFO -       Liquidity: 46114.22
+2024-11-02 08:44:50,257 - INFO -       24h Transactions: 39334 buys, 2192 sells
+2024-11-02 08:44:50,257 - INFO -       DEX: meteora
+2024-11-02 08:44:50,257 - INFO -       Pair: ENIGMA/SOL
+2024-11-02 08:44:50,257 - INFO -       Price: $0.0001575
+2024-11-02 08:44:50,258 - INFO -       24h Volume: 577.83
+2024-11-02 08:44:50,258 - INFO -       Liquidity: 465.62
+2024-11-02 08:44:50,258 - INFO -       24h Transactions: 33 buys, 35 sells
+2024-11-02 08:44:50,759 - INFO - 
+20. Token Details:
+2024-11-02 08:44:50,759 - INFO -    Address: 6HoagCv7qDbYrf9gQyQAj1ubwGCuy3xPgjLQdnFYpump
+2024-11-02 08:44:50,759 - INFO -    URL: https://dexscreener.com/solana/6hoagcv7qdbyrf9gqyqaj1ubwgcuy3xpgjlqdnfypump
+2024-11-02 08:44:50,759 - INFO -    Description: d
+2024-11-02 08:44:51,020 - INFO - 
+   Trading Information:
+2024-11-02 08:44:51,020 - INFO -       DEX: raydium
+2024-11-02 08:44:51,020 - INFO -       Pair: MDMA420/SOL
+2024-11-02 08:44:51,020 - INFO -       Price: $0.000004816
+2024-11-02 08:44:51,020 - INFO -       24h Volume: 70511.31
+2024-11-02 08:44:51,020 - INFO -       Liquidity: 7351.89
+2024-11-02 08:44:51,020 - INFO -       24h Transactions: 326 buys, 379 sells
+2024-11-02 08:44:51,522 - INFO - 
+21. Token Details:
+2024-11-02 08:44:51,522 - INFO -    Address: 5yLU25mVRe3GpgxWtFBuicpyCFZJryrG8dx4k3gLpump
+2024-11-02 08:44:51,523 - INFO -    URL: https://dexscreener.com/solana/5ylu25mvre3gpgxwtfbuicpycfzjryrg8dx4k3glpump
+2024-11-02 08:44:51,523 - INFO -    Description: We all have a spirit animal. What's yours?
+2024-11-02 08:44:51,794 - INFO - 
+   Trading Information:
+2024-11-02 08:44:51,794 - INFO -       DEX: raydium
+2024-11-02 08:44:51,794 - INFO -       Pair: VIZCACHA/SOL
+2024-11-02 08:44:51,794 - INFO -       Price: $0.000006935
+2024-11-02 08:44:51,794 - INFO -       24h Volume: 166043.52
+2024-11-02 08:44:51,794 - INFO -       Liquidity: 8812.62
+2024-11-02 08:44:51,794 - INFO -       24h Transactions: 549 buys, 554 sells
+2024-11-02 08:44:52,295 - INFO - 
+22. Token Details:
+2024-11-02 08:44:52,296 - INFO -    Address: TLUYwf8ipm88BsjNFgJAaeZVTjzS66yetuUhrGzpump
+2024-11-02 08:44:52,296 - INFO -    URL: https://dexscreener.com/solana/tluywf8ipm88bsjnfgjaaezvtjzs66yetuuhrgzpump
+2024-11-02 08:44:52,296 - INFO -    Description: Offical Pygmy Hippo (Akobi) Coin CTO about to take over Moo Deng
+2024-11-02 08:44:52,296 - INFO -    Links:
+2024-11-02 08:44:52,297 - INFO -       Website: https://www.chron.com/life/wildlife/article/moo-deng-houston-zoo-19879551.php
+2024-11-02 08:44:52,297 - INFO -       twitter: https://x.com/i/communities/1852472707033829471
+2024-11-02 08:44:52,297 - INFO -       telegram: https://t.me/AkobiCTO
+2024-11-02 08:44:52,616 - INFO - 
+   Trading Information:
+2024-11-02 08:44:52,616 - INFO -       DEX: raydium
+2024-11-02 08:44:52,616 - INFO -       Pair: Akobi/SOL
+2024-11-02 08:44:52,616 - INFO -       Price: $0.00002834
+2024-11-02 08:44:52,617 - INFO -       24h Volume: 315292.88
+2024-11-02 08:44:52,617 - INFO -       Liquidity: 18238.24
+2024-11-02 08:44:52,617 - INFO -       24h Transactions: 1318 buys, 1205 sells
+2024-11-02 08:44:53,118 - INFO - 
+23. Token Details:
+2024-11-02 08:44:53,118 - INFO -    Address: 5ASZPRk9FG9eqmH1BEN8NoFe7zxe9cowAt8U4J5kpump
+2024-11-02 08:44:53,119 - INFO -    URL: https://dexscreener.com/solana/5aszprk9fg9eqmh1ben8nofe7zxe9cowat8u4j5kpump
+2024-11-02 08:44:53,119 - INFO -    Description: The official Museum of Kols
+2024-11-02 08:44:53,119 - INFO -    Links:
+2024-11-02 08:44:53,119 - INFO -       Website: https://oncyber.io/spaces/kTm6AkLXj4GIEPYkYYXy
+2024-11-02 08:44:53,119 - INFO -       twitter: https://x.com/i/communities/1852471159377613191
+2024-11-02 08:44:53,119 - INFO -       telegram: https://t.me/MOKPORTAL1
+2024-11-02 08:44:53,639 - INFO - 
+   Trading Information:
+2024-11-02 08:44:53,639 - INFO -       DEX: raydium
+2024-11-02 08:44:53,639 - INFO -       Pair: MOK/SOL
+2024-11-02 08:44:53,639 - INFO -       Price: $0.00009287
+2024-11-02 08:44:53,639 - INFO -       24h Volume: 720731.56
+2024-11-02 08:44:53,639 - INFO -       Liquidity: 33336.9
+2024-11-02 08:44:53,639 - INFO -       24h Transactions: 2581 buys, 2212 sells
+2024-11-02 08:44:54,141 - INFO - 
+24. Token Details:
+2024-11-02 08:44:54,142 - INFO -    Address: 5gVSqhk41VA8U6U4Pvux6MSxFWqgptm3w58X9UTGpump
+2024-11-02 08:44:54,143 - INFO -    URL: https://dexscreener.com/solana/5gvsqhk41va8u6u4pvux6msxfwqgptm3w58x9utgpump
+2024-11-02 08:44:54,144 - INFO -    Description: A most exclusive club
+2024-11-02 08:44:54,144 - INFO -    Links:
+2024-11-02 08:44:54,144 - INFO -       Website: https://www.clubmoon.wtf/
+2024-11-02 08:44:54,148 - INFO -       twitter: https://x.com/solanasclubmoon
+2024-11-02 08:44:54,149 - INFO -       telegram: https://t.me/solanasclubmoon
+2024-11-02 08:44:54,425 - INFO - 
+   Trading Information:
+2024-11-02 08:44:54,425 - INFO -       DEX: raydium
+2024-11-02 08:44:54,426 - INFO -       Pair: ClubMoon/SOL
+2024-11-02 08:44:54,426 - INFO -       Price: $0.0001479
+2024-11-02 08:44:54,426 - INFO -       24h Volume: 315683.21
+2024-11-02 08:44:54,426 - INFO -       Liquidity: 41040.23
+2024-11-02 08:44:54,426 - INFO -       24h Transactions: 790 buys, 670 sells
+2024-11-02 08:44:54,927 - INFO - 
+25. Token Details:
+2024-11-02 08:44:54,927 - INFO -    Address: BQsfVh5rr3yDCSzmq8cdZwJGZq8nKzLAb7vKRWpzpump
+2024-11-02 08:44:54,927 - INFO -    URL: https://dexscreener.com/solana/bqsfvh5rr3ydcszmq8cdzwjgzq8nkzlab7vkrwpzpump
+2024-11-02 08:44:54,927 - INFO -    Description: Degens, welcome to the arena of true discipline.
+2024-11-02 08:44:54,927 - INFO -    Links:
+2024-11-02 08:44:54,927 - INFO -       Website: https://www.nonutnovembersol.com/
+2024-11-02 08:44:54,927 - INFO -       twitter: https://x.com/NNNMemeCoin
+2024-11-02 08:44:54,927 - INFO -       telegram: https://t.me/NNNMemeCoin
+2024-11-02 08:44:54,955 - INFO - 
+   Trading Information:
+2024-11-02 08:44:54,955 - INFO -       DEX: raydium
+2024-11-02 08:44:54,955 - INFO -       Pair: NNN/SOL
+2024-11-02 08:44:54,955 - INFO -       Price: $0.0002014
+2024-11-02 08:44:54,955 - INFO -       24h Volume: 675955.43
+2024-11-02 08:44:54,956 - INFO -       Liquidity: 49223.61
+2024-11-02 08:44:54,956 - INFO -       24h Transactions: 50447 buys, 2456 sells
+2024-11-02 08:44:55,457 - INFO - 
+26. Token Details:
+2024-11-02 08:44:55,457 - INFO -    Address: FrGfjSQ8uat9A5Yp9MTNVhLSqCTUWHZh75k7ZJ1Vpump
+2024-11-02 08:44:55,458 - INFO -    URL: https://dexscreener.com/solana/frgfjsq8uat9a5yp9mtnvhlsqctuwhzh75k7zj1vpump
+2024-11-02 08:44:55,458 - INFO -    Description: send it with haste
+2024-11-02 08:44:55,458 - INFO -    Links:
+2024-11-02 08:44:55,458 - INFO -       twitter: https://x.com/senditwithhaste
+2024-11-02 08:44:55,458 - INFO -       telegram: https://t.me/hastecto
+2024-11-02 08:44:55,743 - INFO - 
+   Trading Information:
+2024-11-02 08:44:55,743 - INFO -       DEX: raydium
+2024-11-02 08:44:55,743 - INFO -       Pair: haste/SOL
+2024-11-02 08:44:55,743 - INFO -       Price: $0.000003675
+2024-11-02 08:44:55,743 - INFO -       24h Volume: 132886.55
+2024-11-02 08:44:55,743 - INFO -       Liquidity: 6435.15
+2024-11-02 08:44:55,743 - INFO -       24h Transactions: 558 buys, 495 sells
+2024-11-02 08:44:56,247 - INFO - 
+Step 2: Analyzing trading activity...
+2024-11-02 08:44:56,251 - INFO - 
+Detailed research results saved to: logs/research_20241102_084456.json
+2024-11-02 08:44:56,251 - INFO - Research completed successfully
+2024-11-02 08:44:56,251 - INFO - Results have been saved to the logs directory
+2024-11-02 08:44:56,251 - INFO - Bot shutdown complete

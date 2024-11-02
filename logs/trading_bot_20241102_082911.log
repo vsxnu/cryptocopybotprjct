@@ -1,0 +1,29 @@
+2024-11-02 08:29:11,255 - INFO - ============================================================
+2024-11-02 08:29:11,255 - INFO - Solana Trading Bot Starting
+2024-11-02 08:29:11,255 - INFO - ============================================================
+2024-11-02 08:29:11,255 - INFO - Mode: RESEARCH
+2024-11-02 08:29:11,255 - INFO - Log file: logs/trading_bot_20241102_082911.log
+2024-11-02 08:29:11,255 - INFO - Log level: INFO
+2024-11-02 08:29:11,255 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 08:29:11,255 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 08:29:11,255 - INFO - ------------------------------------------------------------
+2024-11-02 08:29:11,255 - INFO - Starting in RESEARCH mode...
+2024-11-02 08:29:11,255 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 08:29:11,255 - INFO - Beginning wallet analysis...
+2024-11-02 08:29:11,255 - ERROR - Error during research mode execution
+Traceback (most recent call last):
+  File "/Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct/main.py", line 56, in research_mode
+    profitable_wallets = await wallet_finder.find_profitable_wallets()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'WalletFinder' object has no attribute 'find_profitable_wallets'
+2024-11-02 08:29:11,256 - ERROR - Fatal error occurred
+Traceback (most recent call last):
+  File "/Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct/main.py", line 112, in main
+    await research_mode()
+  File "/Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct/main.py", line 63, in research_mode
+    raise e
+  File "/Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct/main.py", line 56, in research_mode
+    profitable_wallets = await wallet_finder.find_profitable_wallets()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'WalletFinder' object has no attribute 'find_profitable_wallets'
+2024-11-02 08:29:11,256 - INFO - Bot shutdown complete

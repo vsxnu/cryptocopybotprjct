@@ -1,0 +1,12 @@
+2024-11-02 07:51:25,644 - INFO - ============================================================
+2024-11-02 07:51:25,644 - INFO - Solana Trading Bot Starting
+2024-11-02 07:51:25,644 - INFO - ============================================================
+2024-11-02 07:51:25,644 - INFO - Log file: logs/trading_bot_20241102_075125.log
+2024-11-02 07:51:25,644 - INFO - Log level: INFO
+2024-11-02 07:51:25,644 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 07:51:25,644 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 07:51:25,644 - INFO - ------------------------------------------------------------
+2024-11-02 07:51:25,644 - INFO - Checking configuration...
+2024-11-02 07:51:25,644 - INFO - Found existing config/tracked-wallets.json
+2024-11-02 07:51:25,644 - INFO - Found existing config/token-whitelist.json
+2024-11-02 07:51:25,644 - INFO - Configuration check completed successfully

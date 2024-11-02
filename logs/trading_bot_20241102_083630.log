@@ -1,0 +1,41 @@
+2024-11-02 08:36:30,488 - INFO - ============================================================
+2024-11-02 08:36:30,488 - INFO - Solana Trading Bot Starting
+2024-11-02 08:36:30,488 - INFO - ============================================================
+2024-11-02 08:36:30,488 - INFO - Mode: RESEARCH
+2024-11-02 08:36:30,488 - INFO - Log file: logs/trading_bot_20241102_083630.log
+2024-11-02 08:36:30,488 - INFO - Log level: INFO
+2024-11-02 08:36:30,488 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 08:36:30,488 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 08:36:30,488 - INFO - ------------------------------------------------------------
+2024-11-02 08:36:30,488 - INFO - Starting in RESEARCH mode...
+2024-11-02 08:36:30,488 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 08:36:30,489 - INFO - Beginning wallet analysis...
+2024-11-02 08:36:30,489 - INFO - 
+================================================================================
+2024-11-02 08:36:30,489 - INFO - STARTING ENHANCED SOLANA WALLET DISCOVERY
+2024-11-02 08:36:30,489 - INFO - ================================================================================
+2024-11-02 08:36:30,489 - INFO - 
+Step 1: Fetching trending pairs...
+2024-11-02 08:36:30,489 - INFO - 
+================================================================================
+2024-11-02 08:36:30,489 - INFO - FETCHING TRENDING PAIRS FROM DEXSCREENER
+2024-11-02 08:36:30,489 - INFO - ================================================================================
+2024-11-02 08:36:30,957 - ERROR - DexScreener API error: 404
+2024-11-02 08:36:30,957 - ERROR - Response: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /latest/dex/pairs/solana</pre>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8dc00cfb2b68ce49',t:'MTczMDUwNzc5MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+2024-11-02 08:36:30,957 - INFO - 
+Step 2: Analyzing trading activity...
+2024-11-02 08:36:30,958 - INFO - 
+Detailed research results saved to: logs/research_20241102_083630.json
+2024-11-02 08:36:30,958 - INFO - Research completed successfully
+2024-11-02 08:36:30,958 - INFO - Results have been saved to the logs directory
+2024-11-02 08:36:30,958 - INFO - Bot shutdown complete

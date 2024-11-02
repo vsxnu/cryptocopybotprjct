@@ -1,0 +1,22 @@
+{
+    "wallets": [
+        {
+            "address": "5ZPBHzMr19CwK9AgNSqgTopqafR1wr8kUNxJ5BM5bE1K",
+            "nickname": "Trader1"
+        },
+        {
+            "address": "BQduNyehDSyAYEkTNkrbNCGrGPBUkZzJvqpd1DuKsLvT",
+            "nickname": "Trader2"
+        },
+        {
+            "address": "HxFLKUAmAMLz1jtT3hbvCMELwH5H9tpM2QugP8sKyfhW",
+            "nickname": "Trader3"
+        }
+    ],
+    "settings": {
+        "min_trades": 10,
+        "min_success_rate": 0.7,
+        "min_profit_per_trade": 0.05,
+        "monitoring_interval": 60
+    }
+}
