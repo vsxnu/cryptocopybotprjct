@@ -1,0 +1,87 @@
+{
+  "timestamp": "2024-11-02T19:16:07.723118",
+  "trending_pairs": {
+    "FRGew7ogukJGaokE9rUT8ecNo936rN4cogZctUqikzew": {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/frgew7ogukjgaoke9rut8ecno936rn4cogzctuqikzew",
+      "pairAddress": "FRGew7ogukJGaokE9rUT8ecNo936rN4cogZctUqikzew",
+      "baseToken": {
+        "address": "Bpny17V6Kxcg1TXMc3DTqjikz3szSxHMaZ6LtkPhpump",
+        "name": "dork",
+        "symbol": "dork"
+      },
+      "quoteToken": {
+        "address": "So11111111111111111111111111111111111111112",
+        "name": "Wrapped SOL",
+        "symbol": "SOL"
+      },
+      "priceNative": "0.0000003647",
+      "priceUsd": "0.00006065",
+      "txns": {
+        "m5": {
+          "buys": 34,
+          "sells": 45
+        },
+        "h1": {
+          "buys": 1476,
+          "sells": 1374
+        },
+        "h6": {
+          "buys": 4103,
+          "sells": 3648
+        },
+        "h24": {
+          "buys": 4103,
+          "sells": 3648
+        }
+      },
+      "volume": {
+        "h24": 1034600.75,
+        "h6": 1034600.75,
+        "h1": 355365.84,
+        "m5": 7550.29
+      },
+      "priceChange": {
+        "m5": 22.9,
+        "h1": -79.36,
+        "h6": -6.2,
+        "h24": -6.2
+      },
+      "liquidity": {
+        "usd": 27350.29,
+        "base": 227263079,
+        "quote": 81.579
+      },
+      "fdv": 60651,
+      "marketCap": 60651,
+      "pairCreatedAt": 1730539152000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/Bpny17V6Kxcg1TXMc3DTqjikz3szSxHMaZ6LtkPhpump.png",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://pump.fun/Bpny17V6Kxcg1TXMc3DTqjikz3szSxHMaZ6LtkPhpump#p24759149"
+          }
+        ],
+        "socials": []
+      },
+      "boosts": {
+        "active": 10
+      }
+    }
+  },
+  "profitable_wallets": {},
+  "analysis_parameters": {
+    "min_sol_balance": 1.0,
+    "min_trades_day": 2,
+    "min_success_rate": 0.5,
+    "min_profit_trade": 0.01,
+    "analysis_period_days": 7,
+    "token_settings": {
+      "min_liquidity_usd": 1000.0,
+      "max_price_impact": 0.1,
+      "min_daily_volume": 1000.0
+    }
+  }
+}

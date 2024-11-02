@@ -1,0 +1,331 @@
+2024-11-02 21:00:46,992 - INFO - ============================================================
+2024-11-02 21:00:46,992 - INFO - Solana Trading Bot Starting
+2024-11-02 21:00:46,992 - INFO - ============================================================
+2024-11-02 21:00:46,992 - INFO - Mode: RESEARCH
+2024-11-02 21:00:46,992 - INFO - Log file: logs/trading_bot_20241102_210046.log
+2024-11-02 21:00:46,992 - INFO - Log level: INFO
+2024-11-02 21:00:46,992 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 21:00:46,993 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 21:00:46,993 - INFO - ------------------------------------------------------------
+2024-11-02 21:00:46,993 - INFO - Starting in RESEARCH mode...
+2024-11-02 21:00:46,993 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 21:00:46,993 - INFO - Beginning wallet analysis...
+2024-11-02 21:00:46,993 - INFO - 
+================================================================================
+2024-11-02 21:00:46,993 - INFO - STARTING ENHANCED SOLANA WALLET DISCOVERY
+2024-11-02 21:00:46,993 - INFO - ================================================================================
+2024-11-02 21:00:46,993 - INFO - 
+Step 1: Fetching trending pairs...
+2024-11-02 21:00:46,993 - INFO - 
+================================================================================
+2024-11-02 21:00:46,993 - INFO - FETCHING TRENDING PAIRS FROM DEXSCREENER
+2024-11-02 21:00:46,993 - INFO - ================================================================================
+2024-11-02 21:00:46,993 - INFO - 
+================================================================================
+2024-11-02 21:00:46,993 - INFO - WALLET DISCOVERY CRITERIA
+2024-11-02 21:00:46,993 - INFO - ================================================================================
+2024-11-02 21:00:46,993 - INFO - 
+1. Token Pair Requirements:
+2024-11-02 21:00:46,993 - INFO - ----------------------------------------
+2024-11-02 21:00:46,993 - INFO - • Minimum liquidity: $1,000.00
+2024-11-02 21:00:46,993 - INFO - • Minimum daily volume: $100,000.00
+2024-11-02 21:00:46,993 - INFO - • Minimum price change 24h: 10.0%
+2024-11-02 21:00:46,993 - INFO - • Maximum price impact: 10000.0%
+2024-11-02 21:00:46,993 - INFO - 
+2. Wallet Performance Requirements:
+2024-11-02 21:00:46,993 - INFO - ----------------------------------------
+2024-11-02 21:00:46,993 - INFO - • Minimum SOL balance: 1.0 SOL
+2024-11-02 21:00:46,993 - INFO - • Minimum trades per day: 2
+2024-11-02 21:00:46,993 - INFO - • Minimum success rate: 50.0%
+2024-11-02 21:00:46,993 - INFO - • Minimum profit per trade: 1.0%
+2024-11-02 21:00:46,993 - INFO - • Analysis period: 7 days
+2024-11-02 21:00:46,993 - INFO - 
+3. Whitelisted Quote Tokens:
+2024-11-02 21:00:46,993 - INFO - ----------------------------------------
+2024-11-02 21:00:46,993 - INFO - • SOL: So11111111111111111111111111111111111111112
+2024-11-02 21:00:46,994 - INFO - • USDC: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
+2024-11-02 21:00:46,994 - INFO - • RAY: 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R
+2024-11-02 21:00:46,994 - INFO - • SRM: SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt
+2024-11-02 21:00:46,994 - INFO - • ORCA: orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE
+2024-11-02 21:00:47,094 - INFO - 
+================================================================================
+2024-11-02 21:00:47,094 - INFO - ANALYZING TRADING PAIRS
+2024-11-02 21:00:47,094 - INFO - ================================================================================
+2024-11-02 21:00:47,094 - INFO - 
+Found 19 Solana tokens to analyze
+2024-11-02 21:00:47,115 - INFO - 
+Analyzing pair: XYZ/SOL
+2024-11-02 21:00:47,115 - INFO - • Volume 24h: $116,737.27
+2024-11-02 21:00:47,115 - INFO - • Liquidity: $32,523,668.33
+2024-11-02 21:00:47,115 - INFO - • Price Change 24h: -0.3%
+2024-11-02 21:00:47,115 - INFO - • DexScreener: https://dexscreener.com/solana/CJBNofdUi6YNB4hnHGz2V4HK8FBoMSfWuc4SRiYfhpUG
+2024-11-02 21:00:47,115 - INFO - ✗ Rejected: Low price change (minimum 10.0%)
+2024-11-02 21:00:47,635 - INFO - 
+Analyzing pair: MAC/SOL
+2024-11-02 21:00:47,635 - INFO - • Volume 24h: $261,744.51
+2024-11-02 21:00:47,635 - INFO - • Liquidity: $40,898.98
+2024-11-02 21:00:47,635 - INFO - • Price Change 24h: 105.0%
+2024-11-02 21:00:47,635 - INFO - • DexScreener: https://dexscreener.com/solana/75iyXp5BAWj97e467Gn5vGfY4bgZtUi2dAwHYGPT7QRM
+2024-11-02 21:00:47,636 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:48,158 - INFO - 
+Analyzing pair: SOLANA/SOL
+2024-11-02 21:00:48,159 - INFO - • Volume 24h: $321,820.43
+2024-11-02 21:00:48,159 - INFO - • Liquidity: $42,984.17
+2024-11-02 21:00:48,159 - INFO - • Price Change 24h: 156.0%
+2024-11-02 21:00:48,159 - INFO - • DexScreener: https://dexscreener.com/solana/221phf1yb87mYDUwoes2rjsk2gwrdpFmET6afN4V9bGS
+2024-11-02 21:00:48,159 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:48,917 - INFO - 
+Analyzing pair: Steve/SOL
+2024-11-02 21:00:48,917 - INFO - • Volume 24h: $579,167.44
+2024-11-02 21:00:48,917 - INFO - • Liquidity: $32,151.64
+2024-11-02 21:00:48,917 - INFO - • Price Change 24h: 10660.0%
+2024-11-02 21:00:48,917 - INFO - • DexScreener: https://dexscreener.com/solana/EpzX2v65pfsd1U647DGUFAZBWtH53nheQiXTCyTd1Hzd
+2024-11-02 21:00:48,917 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:49,859 - INFO - 
+Analyzing pair: SMINEM/SOL
+2024-11-02 21:00:49,859 - INFO - • Volume 24h: $151,224.43
+2024-11-02 21:00:49,859 - INFO - • Liquidity: $35,463.01
+2024-11-02 21:00:49,859 - INFO - • Price Change 24h: 72.4%
+2024-11-02 21:00:49,859 - INFO - • DexScreener: https://dexscreener.com/solana/6SJRK3sPiso3zmHYnz7EhBry1GpGNiiUpiXPzbuFmNyK
+2024-11-02 21:00:49,859 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:50,611 - INFO - 
+Analyzing pair: Trump/SOL
+2024-11-02 21:00:50,611 - INFO - • Volume 24h: $456,781.86
+2024-11-02 21:00:50,611 - INFO - • Liquidity: $443,411.89
+2024-11-02 21:00:50,611 - INFO - • Price Change 24h: 83176270.0%
+2024-11-02 21:00:50,611 - INFO - • DexScreener: https://dexscreener.com/solana/D57fRXFnY83UX26XCKr2pEqpMYq1oqSJYkKYYTuHe3n7
+2024-11-02 21:00:50,611 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:51,235 - INFO - 
+Analyzing pair: blormmy/SOL
+2024-11-02 21:00:51,235 - INFO - • Volume 24h: $5,361,950.78
+2024-11-02 21:00:51,235 - INFO - • Liquidity: $48,281.13
+2024-11-02 21:00:51,235 - INFO - • Price Change 24h: 111.0%
+2024-11-02 21:00:51,235 - INFO - • DexScreener: https://dexscreener.com/solana/4urpk8S2p5QdmhRiSYNsNtmR1sY9vj31j6bjN2FNS3qG
+2024-11-02 21:00:51,235 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:51,235 - INFO - 
+Analyzing pair: blormmy/SOL
+2024-11-02 21:00:51,235 - INFO - • Volume 24h: $7,095.59
+2024-11-02 21:00:51,235 - INFO - • Liquidity: $121.24
+2024-11-02 21:00:51,235 - INFO - • Price Change 24h: -77.0%
+2024-11-02 21:00:51,235 - INFO - • DexScreener: https://dexscreener.com/solana/Jsq5uiEw2XDyUGeojhBgw7Nab85cyKkBnex7SoLToMo
+2024-11-02 21:00:51,235 - INFO - ✗ Rejected: Low liquidity (minimum $1,000.00)
+2024-11-02 21:00:52,022 - INFO - 
+Analyzing pair: ghdog/SOL
+2024-11-02 21:00:52,022 - INFO - • Volume 24h: $230,112.50
+2024-11-02 21:00:52,022 - INFO - • Liquidity: $28,631.13
+2024-11-02 21:00:52,022 - INFO - • Price Change 24h: 13.3%
+2024-11-02 21:00:52,022 - INFO - • DexScreener: https://dexscreener.com/solana/3MEpqKiXQ3oV9PBmYxBybhnFvZTXRZneqtWBAeHWPbvt
+2024-11-02 21:00:52,023 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:52,783 - INFO - 
+Analyzing pair: neko/SOL
+2024-11-02 21:00:52,784 - INFO - • Volume 24h: $716,182.83
+2024-11-02 21:00:52,784 - INFO - • Liquidity: $6,650.47
+2024-11-02 21:00:52,784 - INFO - • Price Change 24h: -95.3%
+2024-11-02 21:00:52,784 - INFO - • DexScreener: https://dexscreener.com/solana/A2S3Z7ycRwg3zA8cvfkZef66EnVqbhgkwydEJxdduHpT
+2024-11-02 21:00:52,784 - INFO - ✗ Rejected: Low price change (minimum 10.0%)
+2024-11-02 21:00:53,689 - INFO - 
+Analyzing pair: AAA/SOL
+2024-11-02 21:00:53,689 - INFO - • Volume 24h: $1,012,905.72
+2024-11-02 21:00:53,689 - INFO - • Liquidity: $6,844.29
+2024-11-02 21:00:53,689 - INFO - • Price Change 24h: -94.0%
+2024-11-02 21:00:53,689 - INFO - • DexScreener: https://dexscreener.com/solana/HVChqwHejRKkG43hoJEgbqfwWXD7KsAA5U2iUrc8YACj
+2024-11-02 21:00:53,689 - INFO - ✗ Rejected: Low price change (minimum 10.0%)
+2024-11-02 21:00:54,623 - INFO - 
+Analyzing pair: $TRUMP2024/SOL
+2024-11-02 21:00:54,623 - INFO - • Volume 24h: $520,025.12
+2024-11-02 21:00:54,624 - INFO - • Liquidity: $460,398.43
+2024-11-02 21:00:54,624 - INFO - • Price Change 24h: 1846984.0%
+2024-11-02 21:00:54,624 - INFO - • DexScreener: https://dexscreener.com/solana/7j2BYaCERS1Dr6qcxjJRnEiR71dneDbARNrrJovz7XQ3
+2024-11-02 21:00:54,624 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:55,559 - INFO - 
+Analyzing pair: First SON/SOL
+2024-11-02 21:00:55,559 - INFO - • Volume 24h: $197,563.17
+2024-11-02 21:00:55,559 - INFO - • Liquidity: $181,900.31
+2024-11-02 21:00:55,559 - INFO - • Price Change 24h: 271240779.0%
+2024-11-02 21:00:55,559 - INFO - • DexScreener: https://dexscreener.com/solana/5DcQQWZnW8MT3wevq7q7UtjsyVRes4oc8KYapRZfS3mc
+2024-11-02 21:00:55,559 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:56,496 - INFO - 
+Analyzing pair: PEPE/SOL
+2024-11-02 21:00:56,496 - INFO - • Volume 24h: $1,656,222.57
+2024-11-02 21:00:56,496 - INFO - • Liquidity: $37,372.81
+2024-11-02 21:00:56,496 - INFO - • Price Change 24h: 12194.0%
+2024-11-02 21:00:56,496 - INFO - • DexScreener: https://dexscreener.com/solana/DAg8PLaVXu9JmXVAtmaeWfw7Wv2tJ3YZPuEDHxB5CF6L
+2024-11-02 21:00:56,496 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:57,425 - INFO - 
+Analyzing pair: Bolt/SOL
+2024-11-02 21:00:57,425 - INFO - • Volume 24h: $332,420.82
+2024-11-02 21:00:57,425 - INFO - • Liquidity: $6,822.90
+2024-11-02 21:00:57,425 - INFO - • Price Change 24h: -93.2%
+2024-11-02 21:00:57,425 - INFO - • DexScreener: https://dexscreener.com/solana/2ocwVq1GptZEy2Sfnp6tQUXcdCHwYRreuofQCeUWhd4i
+2024-11-02 21:00:57,425 - INFO - ✗ Rejected: Low price change (minimum 10.0%)
+2024-11-02 21:00:58,176 - INFO - 
+Analyzing pair: ALT/SOL
+2024-11-02 21:00:58,176 - INFO - • Volume 24h: $679,768.56
+2024-11-02 21:00:58,176 - INFO - • Liquidity: $25,162.58
+2024-11-02 21:00:58,176 - INFO - • Price Change 24h: -58.1%
+2024-11-02 21:00:58,176 - INFO - • DexScreener: https://dexscreener.com/solana/5V9jqdguSMQzq7qVqAYGvKBQnFQc2kHLjvVXGQvu7VCK
+2024-11-02 21:00:58,176 - INFO - ✗ Rejected: Low price change (minimum 10.0%)
+2024-11-02 21:00:59,218 - INFO - 
+Analyzing pair: PNDA/SOL
+2024-11-02 21:00:59,219 - INFO - • Volume 24h: $469,858.70
+2024-11-02 21:00:59,219 - INFO - • Liquidity: $208,664.65
+2024-11-02 21:00:59,219 - INFO - • Price Change 24h: 130.0%
+2024-11-02 21:00:59,219 - INFO - • DexScreener: https://dexscreener.com/solana/XhdvYoCzBBCUF1FY36Au3QCVstDwV5rg1pi61H49DZe
+2024-11-02 21:00:59,219 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:59,768 - INFO - 
+Analyzing pair: ALL12/SOL
+2024-11-02 21:00:59,768 - INFO - • Volume 24h: $4,154,356.01
+2024-11-02 21:00:59,768 - INFO - • Liquidity: $47,048.41
+2024-11-02 21:00:59,768 - INFO - • Price Change 24h: 21.0%
+2024-11-02 21:00:59,768 - INFO - • DexScreener: https://dexscreener.com/solana/9YZyfNHBTizRxkNaLmBv7m3r62kjfETfFvNXEkxKiRt7
+2024-11-02 21:00:59,768 - INFO - ✓ Accepted: Trending pair with high volume
+2024-11-02 21:00:59,768 - INFO - 
+Analyzing pair: ALL12/SOL
+2024-11-02 21:00:59,768 - INFO - • Volume 24h: $5,641.53
+2024-11-02 21:00:59,768 - INFO - • Liquidity: $4,360.42
+2024-11-02 21:00:59,768 - INFO - • Price Change 24h: -32.4%
+2024-11-02 21:00:59,768 - INFO - • DexScreener: https://dexscreener.com/solana/C67CqCUwsgRMydAY2eZrMq4HEKQzxamJN4oBgQTWdta1
+2024-11-02 21:00:59,768 - INFO - ✗ Rejected: Low volume (minimum $100,000.00)
+2024-11-02 21:00:59,768 - INFO - 
+Analyzing pair: ALL12/SOL
+2024-11-02 21:00:59,768 - INFO - • Volume 24h: $6,929.55
+2024-11-02 21:00:59,768 - INFO - • Liquidity: $90.77
+2024-11-02 21:00:59,768 - INFO - • Price Change 24h: -85.3%
+2024-11-02 21:00:59,768 - INFO - • DexScreener: https://dexscreener.com/solana/2sfQ4kQ8t9a41jkCQBZXroJLKs7Q4dUaFnmzeVTGhDoA
+2024-11-02 21:00:59,768 - INFO - ✗ Rejected: Low liquidity (minimum $1,000.00)
+2024-11-02 21:01:00,553 - INFO - 
+Analyzing pair: TRPAI/SOL
+2024-11-02 21:01:00,553 - INFO - • Volume 24h: $3,871.67
+2024-11-02 21:01:00,553 - INFO - • Liquidity: $2,187.79
+2024-11-02 21:01:00,553 - INFO - • Price Change 24h: 11546.0%
+2024-11-02 21:01:00,553 - INFO - • DexScreener: https://dexscreener.com/solana/3gqygFwQpsYDUNkx5DrtDN8snY5sPREvHJr7S9dqwn9X
+2024-11-02 21:01:00,553 - INFO - ✗ Rejected: Low volume (minimum $100,000.00)
+2024-11-02 21:01:01,371 - INFO - 
+Analyzing pair: PTC/SOL
+2024-11-02 21:01:01,371 - INFO - • Volume 24h: $688,189.30
+2024-11-02 21:01:01,371 - INFO - • Liquidity: $8,643.70
+2024-11-02 21:01:01,371 - INFO - • Price Change 24h: -90.9%
+2024-11-02 21:01:01,371 - INFO - • DexScreener: https://dexscreener.com/solana/G9WGv95qWAT8aXMD2wqKPtM1DnFUphbLbswRr41XBaW6
+2024-11-02 21:01:01,371 - INFO - ✗ Rejected: Low price change (minimum 10.0%)
+2024-11-02 21:01:01,872 - INFO - 
+================================================================================
+2024-11-02 21:01:01,874 - INFO - QUALIFIED TRADING PAIRS SUMMARY
+2024-11-02 21:01:01,874 - INFO - ================================================================================
+2024-11-02 21:01:01,874 - INFO - 
+Found 12 qualified pairs:
+2024-11-02 21:01:01,874 - INFO - 
+MAC/SOL:
+2024-11-02 21:01:01,874 - INFO - • Volume 24h: $261,744.51
+2024-11-02 21:01:01,874 - INFO - • Liquidity: $40,898.98
+2024-11-02 21:01:01,874 - INFO - • Price Change 24h: 105.0%
+2024-11-02 21:01:01,874 - INFO - • Pair Address: 75iyXp5BAWj97e467Gn5vGfY4bgZtUi2dAwHYGPT7QRM
+2024-11-02 21:01:01,874 - INFO - • DexScreener: https://dexscreener.com/solana/75iyXp5BAWj97e467Gn5vGfY4bgZtUi2dAwHYGPT7QRM
+2024-11-02 21:01:01,874 - INFO - 
+SOLANA/SOL:
+2024-11-02 21:01:01,874 - INFO - • Volume 24h: $321,820.43
+2024-11-02 21:01:01,874 - INFO - • Liquidity: $42,984.17
+2024-11-02 21:01:01,874 - INFO - • Price Change 24h: 156.0%
+2024-11-02 21:01:01,874 - INFO - • Pair Address: 221phf1yb87mYDUwoes2rjsk2gwrdpFmET6afN4V9bGS
+2024-11-02 21:01:01,874 - INFO - • DexScreener: https://dexscreener.com/solana/221phf1yb87mYDUwoes2rjsk2gwrdpFmET6afN4V9bGS
+2024-11-02 21:01:01,874 - INFO - 
+Steve/SOL:
+2024-11-02 21:01:01,874 - INFO - • Volume 24h: $579,167.44
+2024-11-02 21:01:01,874 - INFO - • Liquidity: $32,151.64
+2024-11-02 21:01:01,875 - INFO - • Price Change 24h: 10660.0%
+2024-11-02 21:01:01,875 - INFO - • Pair Address: EpzX2v65pfsd1U647DGUFAZBWtH53nheQiXTCyTd1Hzd
+2024-11-02 21:01:01,875 - INFO - • DexScreener: https://dexscreener.com/solana/EpzX2v65pfsd1U647DGUFAZBWtH53nheQiXTCyTd1Hzd
+2024-11-02 21:01:01,875 - INFO - 
+SMINEM/SOL:
+2024-11-02 21:01:01,875 - INFO - • Volume 24h: $151,224.43
+2024-11-02 21:01:01,875 - INFO - • Liquidity: $35,463.01
+2024-11-02 21:01:01,875 - INFO - • Price Change 24h: 72.4%
+2024-11-02 21:01:01,875 - INFO - • Pair Address: 6SJRK3sPiso3zmHYnz7EhBry1GpGNiiUpiXPzbuFmNyK
+2024-11-02 21:01:01,875 - INFO - • DexScreener: https://dexscreener.com/solana/6SJRK3sPiso3zmHYnz7EhBry1GpGNiiUpiXPzbuFmNyK
+2024-11-02 21:01:01,875 - INFO - 
+Trump/SOL:
+2024-11-02 21:01:01,875 - INFO - • Volume 24h: $456,781.86
+2024-11-02 21:01:01,875 - INFO - • Liquidity: $443,411.89
+2024-11-02 21:01:01,875 - INFO - • Price Change 24h: 83176270.0%
+2024-11-02 21:01:01,875 - INFO - • Pair Address: D57fRXFnY83UX26XCKr2pEqpMYq1oqSJYkKYYTuHe3n7
+2024-11-02 21:01:01,875 - INFO - • DexScreener: https://dexscreener.com/solana/D57fRXFnY83UX26XCKr2pEqpMYq1oqSJYkKYYTuHe3n7
+2024-11-02 21:01:01,875 - INFO - 
+blormmy/SOL:
+2024-11-02 21:01:01,875 - INFO - • Volume 24h: $5,361,950.78
+2024-11-02 21:01:01,875 - INFO - • Liquidity: $48,281.13
+2024-11-02 21:01:01,875 - INFO - • Price Change 24h: 111.0%
+2024-11-02 21:01:01,875 - INFO - • Pair Address: 4urpk8S2p5QdmhRiSYNsNtmR1sY9vj31j6bjN2FNS3qG
+2024-11-02 21:01:01,875 - INFO - • DexScreener: https://dexscreener.com/solana/4urpk8S2p5QdmhRiSYNsNtmR1sY9vj31j6bjN2FNS3qG
+2024-11-02 21:01:01,875 - INFO - 
+ghdog/SOL:
+2024-11-02 21:01:01,875 - INFO - • Volume 24h: $230,112.50
+2024-11-02 21:01:01,875 - INFO - • Liquidity: $28,631.13
+2024-11-02 21:01:01,875 - INFO - • Price Change 24h: 13.3%
+2024-11-02 21:01:01,875 - INFO - • Pair Address: 3MEpqKiXQ3oV9PBmYxBybhnFvZTXRZneqtWBAeHWPbvt
+2024-11-02 21:01:01,875 - INFO - • DexScreener: https://dexscreener.com/solana/3MEpqKiXQ3oV9PBmYxBybhnFvZTXRZneqtWBAeHWPbvt
+2024-11-02 21:01:01,875 - INFO - 
+$TRUMP2024/SOL:
+2024-11-02 21:01:01,875 - INFO - • Volume 24h: $520,025.12
+2024-11-02 21:01:01,875 - INFO - • Liquidity: $460,398.43
+2024-11-02 21:01:01,875 - INFO - • Price Change 24h: 1846984.0%
+2024-11-02 21:01:01,875 - INFO - • Pair Address: 7j2BYaCERS1Dr6qcxjJRnEiR71dneDbARNrrJovz7XQ3
+2024-11-02 21:01:01,875 - INFO - • DexScreener: https://dexscreener.com/solana/7j2BYaCERS1Dr6qcxjJRnEiR71dneDbARNrrJovz7XQ3
+2024-11-02 21:01:01,875 - INFO - 
+First SON/SOL:
+2024-11-02 21:01:01,875 - INFO - • Volume 24h: $197,563.17
+2024-11-02 21:01:01,875 - INFO - • Liquidity: $181,900.31
+2024-11-02 21:01:01,875 - INFO - • Price Change 24h: 271240779.0%
+2024-11-02 21:01:01,875 - INFO - • Pair Address: 5DcQQWZnW8MT3wevq7q7UtjsyVRes4oc8KYapRZfS3mc
+2024-11-02 21:01:01,875 - INFO - • DexScreener: https://dexscreener.com/solana/5DcQQWZnW8MT3wevq7q7UtjsyVRes4oc8KYapRZfS3mc
+2024-11-02 21:01:01,875 - INFO - 
+PEPE/SOL:
+2024-11-02 21:01:01,875 - INFO - • Volume 24h: $1,656,222.57
+2024-11-02 21:01:01,875 - INFO - • Liquidity: $37,372.81
+2024-11-02 21:01:01,876 - INFO - • Price Change 24h: 12194.0%
+2024-11-02 21:01:01,876 - INFO - • Pair Address: DAg8PLaVXu9JmXVAtmaeWfw7Wv2tJ3YZPuEDHxB5CF6L
+2024-11-02 21:01:01,876 - INFO - • DexScreener: https://dexscreener.com/solana/DAg8PLaVXu9JmXVAtmaeWfw7Wv2tJ3YZPuEDHxB5CF6L
+2024-11-02 21:01:01,876 - INFO - 
+PNDA/SOL:
+2024-11-02 21:01:01,876 - INFO - • Volume 24h: $469,858.70
+2024-11-02 21:01:01,876 - INFO - • Liquidity: $208,664.65
+2024-11-02 21:01:01,876 - INFO - • Price Change 24h: 130.0%
+2024-11-02 21:01:01,876 - INFO - • Pair Address: XhdvYoCzBBCUF1FY36Au3QCVstDwV5rg1pi61H49DZe
+2024-11-02 21:01:01,876 - INFO - • DexScreener: https://dexscreener.com/solana/XhdvYoCzBBCUF1FY36Au3QCVstDwV5rg1pi61H49DZe
+2024-11-02 21:01:01,876 - INFO - 
+ALL12/SOL:
+2024-11-02 21:01:01,876 - INFO - • Volume 24h: $4,154,356.01
+2024-11-02 21:01:01,876 - INFO - • Liquidity: $47,048.41
+2024-11-02 21:01:01,876 - INFO - • Price Change 24h: 21.0%
+2024-11-02 21:01:01,876 - INFO - • Pair Address: 9YZyfNHBTizRxkNaLmBv7m3r62kjfETfFvNXEkxKiRt7
+2024-11-02 21:01:01,876 - INFO - • DexScreener: https://dexscreener.com/solana/9YZyfNHBTizRxkNaLmBv7m3r62kjfETfFvNXEkxKiRt7
+2024-11-02 21:01:01,876 - INFO - 
+================================================================================
+2024-11-02 21:01:01,876 - INFO - ANALYZING TRADING ACTIVITY
+2024-11-02 21:01:01,876 - INFO - ================================================================================
+2024-11-02 21:01:04,239 - ERROR - Error processing pair 75iyXp5BAWj97e467Gn5vGfY4bgZtUi2dAwHYGPT7QRM: 'solders.transaction_status.EncodedTransactionWithStatusMeta' object has no attribute 'message'
+2024-11-02 21:01:05,711 - ERROR - Error processing pair 221phf1yb87mYDUwoes2rjsk2gwrdpFmET6afN4V9bGS: 
+2024-11-02 21:01:06,065 - ERROR - Error processing pair EpzX2v65pfsd1U647DGUFAZBWtH53nheQiXTCyTd1Hzd: 
+2024-11-02 21:01:06,433 - ERROR - Error processing pair 6SJRK3sPiso3zmHYnz7EhBry1GpGNiiUpiXPzbuFmNyK: 
+2024-11-02 21:01:07,224 - ERROR - Error processing pair D57fRXFnY83UX26XCKr2pEqpMYq1oqSJYkKYYTuHe3n7: 
+2024-11-02 21:01:08,602 - ERROR - Error processing pair 4urpk8S2p5QdmhRiSYNsNtmR1sY9vj31j6bjN2FNS3qG: 
+2024-11-02 21:01:08,991 - ERROR - Error processing pair 3MEpqKiXQ3oV9PBmYxBybhnFvZTXRZneqtWBAeHWPbvt: 
+2024-11-02 21:01:09,329 - ERROR - Error processing pair 7j2BYaCERS1Dr6qcxjJRnEiR71dneDbARNrrJovz7XQ3: 
+2024-11-02 21:01:09,728 - ERROR - Error processing pair 5DcQQWZnW8MT3wevq7q7UtjsyVRes4oc8KYapRZfS3mc: 
+2024-11-02 21:01:10,106 - ERROR - Error processing pair DAg8PLaVXu9JmXVAtmaeWfw7Wv2tJ3YZPuEDHxB5CF6L: 
+2024-11-02 21:01:10,473 - ERROR - Error processing pair XhdvYoCzBBCUF1FY36Au3QCVstDwV5rg1pi61H49DZe: 
+2024-11-02 21:01:10,853 - ERROR - Error processing pair 9YZyfNHBTizRxkNaLmBv7m3r62kjfETfFvNXEkxKiRt7: 
+2024-11-02 21:01:10,853 - INFO - 
+Found 0 unique wallet addresses to analyze
+2024-11-02 21:01:10,853 - INFO - 
+================================================================================
+2024-11-02 21:01:10,853 - INFO - WALLET DISCOVERY SUMMARY
+2024-11-02 21:01:10,853 - INFO - ================================================================================
+2024-11-02 21:01:10,853 - INFO - 
+Analyzed 0 unique wallets
+2024-11-02 21:01:10,853 - INFO - Discovered 0 profitable wallets
+2024-11-02 21:01:10,853 - INFO - 
+No wallets met the profitability criteria
+2024-11-02 21:01:10,856 - INFO - 
+Detailed research results saved to: logs/research_20241102_210110.json
+2024-11-02 21:01:10,856 - INFO - Research completed successfully
+2024-11-02 21:01:10,856 - INFO - Results have been saved to the logs directory
+2024-11-02 21:01:10,857 - INFO - Bot shutdown complete

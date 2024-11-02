@@ -1,0 +1,379 @@
+{
+  "timestamp": "2024-11-02T18:48:46.841977",
+  "trending_pairs": {
+    "Eu4BMiDMZSDyyRiAEf83e71Faob8v4WXVwh6Ftrvpump": {
+      "url": "https://dexscreener.com/solana/eu4bmidmzsdyyriaef83e71faob8v4wxvwh6ftrvpump",
+      "chainId": "solana",
+      "tokenAddress": "Eu4BMiDMZSDyyRiAEf83e71Faob8v4WXVwh6Ftrvpump",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Eu4BMiDMZSDyyRiAEf83e71Faob8v4WXVwh6Ftrvpump.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Eu4BMiDMZSDyyRiAEf83e71Faob8v4WXVwh6Ftrvpump/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Eu4BMiDMZSDyyRiAEf83e71Faob8v4WXVwh6Ftrvpump?timestamp=1730544300000",
+      "description": "Who is ALPHA? \n\nALPHA is the cat who made himself from scratch. He started with a regular job, staring at his screen, endlessly watching \u201cbuy or sell?\u201d Now he\u2019s the king of crypto! He\u2019s got more cars than we have browser tabs, and more cash than his photos have likes. ALPHA lives it up: yachts, designer suits, and stories that blow everyone\u2019s mind! He\u2019s got a Bitcoin in each paw, and every move he makes drives the market up. Join ALPHA if you want to know how he did it all \u2014 and how you can too!",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://alphacto.top"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/itsalphacat"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/cto_alpha"
+        }
+      ]
+    },
+    "AwL5zfokCK3kfZb34MscBaY5JCsDnznhspxdrogpump": {
+      "url": "https://dexscreener.com/solana/awl5zfokck3kfzb34mscbay5jcsdnznhspxdrogpump",
+      "chainId": "solana",
+      "tokenAddress": "AwL5zfokCK3kfZb34MscBaY5JCsDnznhspxdrogpump",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/AwL5zfokCK3kfZb34MscBaY5JCsDnznhspxdrogpump.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/AwL5zfokCK3kfZb34MscBaY5JCsDnznhspxdrogpump/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AwL5zfokCK3kfZb34MscBaY5JCsDnznhspxdrogpump?timestamp=1730544300000",
+      "description": "First 3D Man on Solana",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://pump.fun/AwL5zfokCK3kfZb34MscBaY5JCsDnznhspxdrogpump"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/i/communities/1852648785148833852"
+        }
+      ]
+    },
+    "FjYig5KuiSmdJeUwHCK8GBJQ1LaHCjhZXMSxFRMApump": {
+      "url": "https://dexscreener.com/solana/fjyig5kuismdjeuwhck8gbjq1lahcjhzxmsxfrmapump",
+      "chainId": "solana",
+      "tokenAddress": "FjYig5KuiSmdJeUwHCK8GBJQ1LaHCjhZXMSxFRMApump",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/FjYig5KuiSmdJeUwHCK8GBJQ1LaHCjhZXMSxFRMApump.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/FjYig5KuiSmdJeUwHCK8GBJQ1LaHCjhZXMSxFRMApump/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FjYig5KuiSmdJeUwHCK8GBJQ1LaHCjhZXMSxFRMApump?timestamp=1730544300000",
+      "description": "The Officiall MIlady Mascot \"Mascot of Autistic Psycho\"",
+      "links": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/i/communities/1852628543756185836"
+        }
+      ]
+    },
+    "GhqF8jZMTWj14V2PewHVFj8bAU8adQnbGWBkBpTBRaGZ": {
+      "url": "https://dexscreener.com/solana/ghqf8jzmtwj14v2pewhvfj8bau8adqnbgwbkbptbragz",
+      "chainId": "solana",
+      "tokenAddress": "GhqF8jZMTWj14V2PewHVFj8bAU8adQnbGWBkBpTBRaGZ",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/GhqF8jZMTWj14V2PewHVFj8bAU8adQnbGWBkBpTBRaGZ.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/GhqF8jZMTWj14V2PewHVFj8bAU8adQnbGWBkBpTBRaGZ/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GhqF8jZMTWj14V2PewHVFj8bAU8adQnbGWBkBpTBRaGZ?timestamp=1730544300000",
+      "description": "Get ready for Rabbits Inu Coin! Launching soon on Solana and live on Raydium!",
+      "links": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/Rabbitsinucoin"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/Rinu_Coin"
+        }
+      ]
+    },
+    "CNEUNXjwe6j9mKGVv8g9oZyuYsApmTxHrrYUVbH5pump": {
+      "url": "https://dexscreener.com/solana/cneunxjwe6j9mkgvv8g9ozyuysapmtxhrryuvbh5pump",
+      "chainId": "solana",
+      "tokenAddress": "CNEUNXjwe6j9mKGVv8g9oZyuYsApmTxHrrYUVbH5pump",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/CNEUNXjwe6j9mKGVv8g9oZyuYsApmTxHrrYUVbH5pump.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CNEUNXjwe6j9mKGVv8g9oZyuYsApmTxHrrYUVbH5pump/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CNEUNXjwe6j9mKGVv8g9oZyuYsApmTxHrrYUVbH5pump?timestamp=1730544300000",
+      "description": "Springfield's rizzful retarded doge.",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://pump.fun/CNEUNXjwe6j9mKGVv8g9oZyuYsApmTxHrrYUVbH5pump"
+        }
+      ]
+    },
+    "Bpny17V6Kxcg1TXMc3DTqjikz3szSxHMaZ6LtkPhpump": {
+      "url": "https://dexscreener.com/solana/bpny17v6kxcg1txmc3dtqjikz3szsxhmaz6ltkphpump",
+      "chainId": "solana",
+      "tokenAddress": "Bpny17V6Kxcg1TXMc3DTqjikz3szSxHMaZ6LtkPhpump",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Bpny17V6Kxcg1TXMc3DTqjikz3szSxHMaZ6LtkPhpump.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Bpny17V6Kxcg1TXMc3DTqjikz3szSxHMaZ6LtkPhpump/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Bpny17V6Kxcg1TXMc3DTqjikz3szSxHMaZ6LtkPhpump?timestamp=1730544300000",
+      "description": "Dork Dork Dork Dork Dork Dork Dork Goose Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Goose Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Goose Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Goose Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Goose Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Goose Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Goose Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Dork Goose Dork Dork Dork Dork Dork Dork Dork Dork",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://pump.fun/Bpny17V6Kxcg1TXMc3DTqjikz3szSxHMaZ6LtkPhpump#p24759149"
+        }
+      ]
+    },
+    "34nb6p3SeHuoiEwmCLEDXrxYGmpuDYXZMLFmiUeLpump": {
+      "url": "https://dexscreener.com/solana/34nb6p3sehuoiewmcledxrxygmpudyxzmlfmiuelpump",
+      "chainId": "solana",
+      "tokenAddress": "34nb6p3SeHuoiEwmCLEDXrxYGmpuDYXZMLFmiUeLpump",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/34nb6p3SeHuoiEwmCLEDXrxYGmpuDYXZMLFmiUeLpump.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/34nb6p3SeHuoiEwmCLEDXrxYGmpuDYXZMLFmiUeLpump/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/34nb6p3SeHuoiEwmCLEDXrxYGmpuDYXZMLFmiUeLpump?timestamp=1730544300000",
+      "description": "A digital lord, operating from his dwelling, trolling & stacking worthless internet money. Cutting through the financial bullshit with $LORD",
+      "links": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/smrjf85658293"
+        }
+      ]
+    },
+    "EB1zZh9hSanrVmR7kWr6rqa2PZCARf2LJVaa8g1PHfC1": {
+      "url": "https://dexscreener.com/solana/eb1zzh9hsanrvmr7kwr6rqa2pzcarf2ljvaa8g1phfc1",
+      "chainId": "solana",
+      "tokenAddress": "EB1zZh9hSanrVmR7kWr6rqa2PZCARf2LJVaa8g1PHfC1",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EB1zZh9hSanrVmR7kWr6rqa2PZCARf2LJVaa8g1PHfC1.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EB1zZh9hSanrVmR7kWr6rqa2PZCARf2LJVaa8g1PHfC1/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EB1zZh9hSanrVmR7kWr6rqa2PZCARf2LJVaa8g1PHfC1?timestamp=1730544300000",
+      "description": "Dogfrog by \ud835\udcdc\ud835\udcea\ud835\udcfd\ud835\udcfd \ud835\udcd5\ud835\udcfe\ud835\udcfb\ud835\udcf2\ud835\udcee\nDOGFROG, the dopest meme on Solana, is a Matt Furie original character making his way into the Pepeverse.",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://dogfrog-sol.fun/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/DogfrogSolanaX"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/DogfrogSolana"
+        }
+      ]
+    },
+    "GKycJ7LxPFg1xgQXkQvhzCDqE7hQDqrT7CXm3JyP7PfB": {
+      "url": "https://dexscreener.com/solana/gkycj7lxpfg1xgqxkqvhzcdqe7hqdqrt7cxm3jyp7pfb",
+      "chainId": "solana",
+      "tokenAddress": "GKycJ7LxPFg1xgQXkQvhzCDqE7hQDqrT7CXm3JyP7PfB",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/GKycJ7LxPFg1xgQXkQvhzCDqE7hQDqrT7CXm3JyP7PfB.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/GKycJ7LxPFg1xgQXkQvhzCDqE7hQDqrT7CXm3JyP7PfB/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GKycJ7LxPFg1xgQXkQvhzCDqE7hQDqrT7CXm3JyP7PfB?timestamp=1730544300000",
+      "description": "Welcome to the Relaxio Resort & Spa where relaxios stay unbothered and in their lane. Life is better when you $RELAX.",
+      "links": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/relaxio_solana_"
+        }
+      ]
+    },
+    "FhMPKcXMQGx2cEpUN87Dhn7zt4vU9E1RGh8KGSVqKFVf": {
+      "url": "https://dexscreener.com/solana/fhmpkcxmqgx2cepun87dhn7zt4vu9e1rgh8kgsvqkfvf",
+      "chainId": "solana",
+      "tokenAddress": "FhMPKcXMQGx2cEpUN87Dhn7zt4vU9E1RGh8KGSVqKFVf",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/FhMPKcXMQGx2cEpUN87Dhn7zt4vU9E1RGh8KGSVqKFVf.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/FhMPKcXMQGx2cEpUN87Dhn7zt4vU9E1RGh8KGSVqKFVf/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FhMPKcXMQGx2cEpUN87Dhn7zt4vU9E1RGh8KGSVqKFVf?timestamp=1730544300000",
+      "description": "Og dev rugged and now he\u2019s driving for #UberJeets |",
+      "links": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/UberJeetsCTO_"
+        }
+      ]
+    },
+    "69e3UAcwZGKq1eR7jn9eYypHyZ9VDSzKqatB25m7pump": {
+      "url": "https://dexscreener.com/solana/69e3uacwzgkq1er7jn9eyyphyz9vdszkqatb25m7pump",
+      "chainId": "solana",
+      "tokenAddress": "69e3UAcwZGKq1eR7jn9eYypHyZ9VDSzKqatB25m7pump",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/69e3UAcwZGKq1eR7jn9eYypHyZ9VDSzKqatB25m7pump.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/69e3UAcwZGKq1eR7jn9eYypHyZ9VDSzKqatB25m7pump/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/69e3UAcwZGKq1eR7jn9eYypHyZ9VDSzKqatB25m7pump?timestamp=1730544300000",
+      "description": "TAKE THE TRUMP BACK TO THE WHITE HOUSE TO MAKE CRYPTO GREAT AGAIN",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://trump47.gold/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/TheRealTrump47"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/TheRealTrump47"
+        }
+      ]
+    },
+    "EXDLyqRFwt2EDAQ9qB9sNpAEnWtQvxUM72vuT37zpump": {
+      "url": "https://dexscreener.com/solana/exdlyqrfwt2edaq9qb9snpaenwtqvxum72vut37zpump",
+      "chainId": "solana",
+      "tokenAddress": "EXDLyqRFwt2EDAQ9qB9sNpAEnWtQvxUM72vuT37zpump",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EXDLyqRFwt2EDAQ9qB9sNpAEnWtQvxUM72vuT37zpump.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EXDLyqRFwt2EDAQ9qB9sNpAEnWtQvxUM72vuT37zpump/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EXDLyqRFwt2EDAQ9qB9sNpAEnWtQvxUM72vuT37zpump?timestamp=1730544300000",
+      "description": "Magical squirrels $Dale gain unique Treehouse ecosystem utilities by transforming through a golden nut.",
+      "links": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/SquirrelDalesol"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/SquirrelDalesol"
+        }
+      ]
+    },
+    "A36EKQFrCZkMpExWnCTJ7NkDsTR2T4NkNYfjiYXtyqiK": {
+      "url": "https://dexscreener.com/solana/a36ekqfrczkmpexwnctj7nkdstr2t4nknyfjiyxtyqik",
+      "chainId": "solana",
+      "tokenAddress": "A36EKQFrCZkMpExWnCTJ7NkDsTR2T4NkNYfjiYXtyqiK",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/A36EKQFrCZkMpExWnCTJ7NkDsTR2T4NkNYfjiYXtyqiK.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/A36EKQFrCZkMpExWnCTJ7NkDsTR2T4NkNYfjiYXtyqiK/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/A36EKQFrCZkMpExWnCTJ7NkDsTR2T4NkNYfjiYXtyqiK?timestamp=1730544300000",
+      "description": "Transforming Politics with Humor of Crypto\n\nThe PDOG will rule the USA!!!\n\nLFG! PDOG!",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://presidentdoge.me/"
+        },
+        {
+          "label": "Info",
+          "url": "https://roblox.fandom.com/wiki/Catalog:President_Doge"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/PresidentDogeCommunity"
+        }
+      ]
+    },
+    "645dDH6i7gbodb9QurUgwvUDFfvn8Jrw365U6Zr797mm": {
+      "url": "https://dexscreener.com/solana/645ddh6i7gbodb9qurugwvudffvn8jrw365u6zr797mm",
+      "chainId": "solana",
+      "tokenAddress": "645dDH6i7gbodb9QurUgwvUDFfvn8Jrw365U6Zr797mm",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/645dDH6i7gbodb9QurUgwvUDFfvn8Jrw365U6Zr797mm.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/645dDH6i7gbodb9QurUgwvUDFfvn8Jrw365U6Zr797mm/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/645dDH6i7gbodb9QurUgwvUDFfvn8Jrw365U6Zr797mm?timestamp=1730544300000",
+      "description": "Donald Trump Takes Over the Fryer at McDonald's in Pennsylvania",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://wcdonaldtrump.xyz/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/WcTRUMP_SOL"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/WcDonald_Trump_Portal"
+        }
+      ]
+    },
+    "7uj3UDY8RWP4K7dwv5EyCUsjJH3qm8vz7YnjMkuDpump": {
+      "url": "https://dexscreener.com/solana/7uj3udy8rwp4k7dwv5eycusjjh3qm8vz7ynjmkudpump",
+      "chainId": "solana",
+      "tokenAddress": "7uj3UDY8RWP4K7dwv5EyCUsjJH3qm8vz7YnjMkuDpump",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7uj3UDY8RWP4K7dwv5EyCUsjJH3qm8vz7YnjMkuDpump.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7uj3UDY8RWP4K7dwv5EyCUsjJH3qm8vz7YnjMkuDpump/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7uj3UDY8RWP4K7dwv5EyCUsjJH3qm8vz7YnjMkuDpump?timestamp=1730544300000",
+      "description": "Haruka, as a meme token, represents the essence of a curious and adventurous mind, always discovering new ideas and sharing them with those around her. She\u2019s the kind of friend who encourages open conversations, fills silences with warmth, and turns casual chats into memorable exchanges. Whether it's about exploring life\u2019s mysteries or sharing everyday moments, Haruka\u2019s presence brings a sense of comfort and connection.",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://diaryharuka.fun/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/harukasol_"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/harukasolana"
+        }
+      ]
+    },
+    "EFuVEtfwWtm6VfFR7qhTD61FSYswSChD8Q4WERxCEjyc": {
+      "url": "https://dexscreener.com/solana/efuvetfwwtm6vffr7qhtd61fsyswschd8q4werxcejyc",
+      "chainId": "solana",
+      "tokenAddress": "EFuVEtfwWtm6VfFR7qhTD61FSYswSChD8Q4WERxCEjyc",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EFuVEtfwWtm6VfFR7qhTD61FSYswSChD8Q4WERxCEjyc.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EFuVEtfwWtm6VfFR7qhTD61FSYswSChD8Q4WERxCEjyc/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EFuVEtfwWtm6VfFR7qhTD61FSYswSChD8Q4WERxCEjyc?timestamp=1730544300000",
+      "description": "\ud83e\udd16Iron Man's battle robot, always ready to fight back! \ud83d\udca5",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://jarvisstark.xyz/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/JARVIS_ONSOL"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/Jarvis_Stark_Portal"
+        }
+      ]
+    },
+    "H2M7L4R8Cq3hnozXbQbBKLQF5cbNwUANRSEs3pfd6zkW": {
+      "url": "https://dexscreener.com/solana/h2m7l4r8cq3hnozxbqbbklqf5cbnwuanrses3pfd6zkw",
+      "chainId": "solana",
+      "tokenAddress": "H2M7L4R8Cq3hnozXbQbBKLQF5cbNwUANRSEs3pfd6zkW",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/H2M7L4R8Cq3hnozXbQbBKLQF5cbNwUANRSEs3pfd6zkW.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/H2M7L4R8Cq3hnozXbQbBKLQF5cbNwUANRSEs3pfd6zkW/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/H2M7L4R8Cq3hnozXbQbBKLQF5cbNwUANRSEs3pfd6zkW?timestamp=1730544300000",
+      "description": "Challenging vaccine narratives. Aiding cats globally. \nPowered by blockchain. Join our fight! \u2b07\ufe0f",
+      "links": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/Catvax_CTO"
+        }
+      ]
+    },
+    "59rVKUDce5D7mmo3NNb3RMysoxsG1eBPBmeojTHdQw9i": {
+      "url": "https://dexscreener.com/solana/59rvkudce5d7mmo3nnb3rmysoxsg1ebpbmeojthdqw9i",
+      "chainId": "solana",
+      "tokenAddress": "59rVKUDce5D7mmo3NNb3RMysoxsG1eBPBmeojTHdQw9i",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/59rVKUDce5D7mmo3NNb3RMysoxsG1eBPBmeojTHdQw9i.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/59rVKUDce5D7mmo3NNb3RMysoxsG1eBPBmeojTHdQw9i?timestamp=1730544300000",
+      "description": "$GOFURS | Good Old Fashioned Un Registered Security \ud83d\udc3f\ufe0f |",
+      "links": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/GOFURS404_"
+        }
+      ]
+    },
+    "HbtP9vcXMDdRKfpqyjGCgyNWak5TDiJStgFqjzAGqYrk": {
+      "url": "https://dexscreener.com/solana/hbtp9vcxmddrkfpqyjgcgynwak5tdijstgfqjzagqyrk",
+      "chainId": "solana",
+      "tokenAddress": "HbtP9vcXMDdRKfpqyjGCgyNWak5TDiJStgFqjzAGqYrk",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HbtP9vcXMDdRKfpqyjGCgyNWak5TDiJStgFqjzAGqYrk.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HbtP9vcXMDdRKfpqyjGCgyNWak5TDiJStgFqjzAGqYrk/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HbtP9vcXMDdRKfpqyjGCgyNWak5TDiJStgFqjzAGqYrk?timestamp=1730544300000",
+      "description": "(22/F) Artificial Intelligence Researcher @ Foxconn \u2661 ex-Senior Industrial Engineer @ TSMC \u2661 Stanford Computer Science Graduate (4.2 GPA) \u2661 (177 IQ) \u60c5\u4eba",
+      "links": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/chloe21e8_"
+        }
+      ]
+    },
+    "6iCUSPJ2QkoVHuPmQryi5TtZwnAHdFAYo7gnEarVpump": {
+      "url": "https://dexscreener.com/solana/6icuspj2qkovhupmqryi5ttzwnahdfayo7gnearvpump",
+      "chainId": "solana",
+      "tokenAddress": "6iCUSPJ2QkoVHuPmQryi5TtZwnAHdFAYo7gnEarVpump",
+      "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/6iCUSPJ2QkoVHuPmQryi5TtZwnAHdFAYo7gnEarVpump.png",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6iCUSPJ2QkoVHuPmQryi5TtZwnAHdFAYo7gnEarVpump/header.png",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6iCUSPJ2QkoVHuPmQryi5TtZwnAHdFAYo7gnEarVpump?timestamp=1730544300000",
+      "links": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/iluminatibot/status/1852614180202742074"
+        }
+      ]
+    }
+  },
+  "profitable_wallets": {},
+  "analysis_parameters": {
+    "min_sol_balance": 10.0,
+    "min_trades_day": 5,
+    "min_success_rate": 0.7,
+    "min_profit_trade": 0.02,
+    "analysis_period_days": 7
+  }
+}

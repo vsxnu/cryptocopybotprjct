@@ -1,0 +1,48 @@
+2024-11-02 19:28:18,013 - INFO - ============================================================
+2024-11-02 19:28:18,013 - INFO - Solana Trading Bot Starting
+2024-11-02 19:28:18,013 - INFO - ============================================================
+2024-11-02 19:28:18,013 - INFO - Mode: RESEARCH
+2024-11-02 19:28:18,013 - INFO - Log file: logs/trading_bot_20241102_192817.log
+2024-11-02 19:28:18,013 - INFO - Log level: INFO
+2024-11-02 19:28:18,013 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 19:28:18,013 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 19:28:18,013 - INFO - ------------------------------------------------------------
+2024-11-02 19:28:18,013 - INFO - Starting in RESEARCH mode...
+2024-11-02 19:28:18,013 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 19:28:18,013 - INFO - Beginning wallet analysis...
+2024-11-02 19:28:18,013 - INFO - 
+================================================================================
+2024-11-02 19:28:18,013 - INFO - STARTING ENHANCED SOLANA WALLET DISCOVERY
+2024-11-02 19:28:18,013 - INFO - ================================================================================
+2024-11-02 19:28:18,013 - INFO - 
+Step 1: Fetching trending pairs...
+2024-11-02 19:28:18,013 - INFO - 
+================================================================================
+2024-11-02 19:28:18,013 - INFO - FETCHING TRENDING PAIRS FROM DEXSCREENER
+2024-11-02 19:28:18,013 - INFO - ================================================================================
+2024-11-02 19:28:18,013 - INFO - 
+Wallet Discovery Criteria:
+2024-11-02 19:28:18,013 - INFO - ----------------------------------------
+2024-11-02 19:28:18,013 - INFO - Token Pair Requirements:
+2024-11-02 19:28:18,013 - INFO - - Minimum liquidity: $1,000.00
+2024-11-02 19:28:18,013 - INFO - - Minimum daily volume: $1,000.00
+2024-11-02 19:28:18,013 - INFO - - Maximum price impact: 10.0%
+2024-11-02 19:28:18,013 - INFO - 
+Wallet Performance Requirements:
+2024-11-02 19:28:18,013 - INFO - - Minimum SOL balance: 1.0 SOL
+2024-11-02 19:28:18,013 - INFO - - Minimum trades per day: 2
+2024-11-02 19:28:18,013 - INFO - - Minimum success rate: 50.0%
+2024-11-02 19:28:18,013 - INFO - - Minimum profit per trade: 1.0%
+2024-11-02 19:28:18,013 - INFO - - Analysis period: 7 days
+2024-11-02 19:28:18,013 - INFO - ----------------------------------------
+2024-11-02 19:28:36,801 - INFO - 
+Found 0 qualified trading pairs
+2024-11-02 19:28:36,803 - INFO - 
+Step 2: Analyzing trading activity...
+2024-11-02 19:28:36,803 - INFO - 
+Found 0 unique wallet addresses to analyze
+2024-11-02 19:28:36,804 - INFO - 
+Detailed research results saved to: logs/research_20241102_192836.json
+2024-11-02 19:28:36,804 - INFO - Research completed successfully
+2024-11-02 19:28:36,804 - INFO - Results have been saved to the logs directory
+2024-11-02 19:28:36,804 - INFO - Bot shutdown complete

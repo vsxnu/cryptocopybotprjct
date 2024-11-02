@@ -34,20 +34,54 @@ DEXSCREENER_HEADERS = {
     'User-Agent': 'Solana-Trading-Bot/1.0'
 }
 
-# RPC rate limiting configuration (ultra-conservative for public RPC)
-REQUESTS_PER_MINUTE = 6  # 1 request every 10 seconds
-REQUEST_INTERVAL = 60.0 / REQUESTS_PER_MINUTE  # Time between requests in seconds
-MAX_RETRIES = 3
-INITIAL_RETRY_DELAY = 10  # Start with 10 seconds delay
-MAX_RETRY_DELAY = 60  # Maximum 1 minute delay
+# Trading Pair Criteria
+MIN_LIQUIDITY_USD = float(os.getenv('MIN_LIQUIDITY_USD', '1000'))
+MIN_DAILY_VOLUME = float(os.getenv('MIN_DAILY_VOLUME', '100000'))
+MIN_PRICE_CHANGE = float(os.getenv('MIN_PRICE_CHANGE', '10'))
+MAX_PRICE_IMPACT = float(os.getenv('MAX_PRICE_IMPACT', '10000'))
 
-# Analysis Parameters
-MIN_SOL_BALANCE = float(os.getenv('MIN_SOL_BALANCE', '10.0'))
-MIN_TRADES_DAY = int(os.getenv('MIN_TRADES_DAY', '5'))
-MIN_SUCCESS_RATE = float(os.getenv('MIN_SUCCESS_RATE', '0.7'))
-MIN_PROFIT_TRADE = float(os.getenv('MIN_PROFIT_TRADE', '0.02'))
+# Wallet Finding Criteria
+MIN_SOL_BALANCE = float(os.getenv('MIN_SOL_BALANCE', '1.0'))
+MIN_TRADES_DAY = int(os.getenv('MIN_TRADES_DAY', '2'))
+MIN_SUCCESS_RATE = float(os.getenv('MIN_SUCCESS_RATE', '0.5'))
+MIN_PROFIT_TRADE = float(os.getenv('MIN_PROFIT_TRADE', '0.01'))
 ANALYSIS_PERIOD_DAYS = int(os.getenv('ANALYSIS_PERIOD_DAYS', '7'))
-TARGET_DEXES = os.getenv('TARGET_DEXES', 'raydium,orca,jupiter').split(',')
+
+# Token Whitelist
+DEFAULT_WHITELIST = {
+    'SOL': 'So11111111111111111111111111111111111111112',
+    'USDC': 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
+    'RAY': '4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R',
+    'SRM': 'SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt',
+    'ORCA': 'orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE'
+}
+
+# Build whitelist from environment variables
+WHITELISTED_TOKENS = {}
+for key, default_value in DEFAULT_WHITELIST.items():
+    env_key = f'WHITELIST_{key}'
+    if os.getenv(env_key):
+        WHITELISTED_TOKENS[key] = os.getenv(env_key)
+    else:
+        WHITELISTED_TOKENS[key] = default_value
+
+# Monitoring Configuration
+MONITORING_INTERVAL = int(os.getenv('MONITORING_INTERVAL', '60'))  # seconds
+MAX_PAIRS_TO_ANALYZE = int(os.getenv('MAX_PAIRS_TO_ANALYZE', '20'))
+MAX_WALLETS_TO_ANALYZE = int(os.getenv('MAX_WALLETS_TO_ANALYZE', '100'))
+LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO')
+LOG_FILE_PATH = os.getenv('LOG_FILE_PATH', 'logs/trading_bot.log')
+
+# Rate Limiting Configuration
+REQUESTS_PER_MINUTE = int(os.getenv('REQUESTS_PER_MINUTE', '6'))
+REQUEST_INTERVAL = float(os.getenv('REQUEST_INTERVAL', '10.0'))
+MAX_RETRIES = int(os.getenv('MAX_RETRIES', '3'))
+
+# Retry Configuration
+INITIAL_RETRY_DELAY = float(os.getenv('INITIAL_RETRY_DELAY', '1.0'))  # Initial delay in seconds
+MAX_RETRY_DELAY = float(os.getenv('MAX_RETRY_DELAY', '60.0'))  # Maximum delay in seconds
+WALLET_MONITOR_DELAY = float(os.getenv('WALLET_MONITOR_DELAY', '2.0'))  # Delay between monitoring wallets
+TRANSACTION_BATCH_SIZE = int(os.getenv('TRANSACTION_BATCH_SIZE', '50'))  # Number of transactions to fetch per request
 
 # Common token program IDs
 TOKEN_PROGRAM_ID = 'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA'
@@ -58,18 +92,9 @@ RAYDIUM_PROGRAM_ID = '9W959DqEETiGZocYWCQPaJ6sBmUzgfxXfqGeTEdp3aQP'
 ORCA_PROGRAM_ID = 'whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc'
 JUPITER_PROGRAM_ID = 'JUP4Fb2cqiRUcaTHdrPC8h2gNsA2ETXiPDD33WcGuJB'
 
-# Logging Configuration
-LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO')
-LOG_FILE_PATH = os.getenv('LOG_FILE_PATH', 'logs/trading_bot.log')
-
-# Monitoring Configuration
-MONITORING_INTERVAL = int(os.getenv('MONITORING_INTERVAL', '60'))  # seconds
-WALLET_MONITOR_DELAY = 15  # seconds between monitoring each wallet
-TRANSACTION_BATCH_SIZE = 1  # number of transactions to fetch at once
-
 # Global rate limiter settings
 GLOBAL_RATE_LIMIT = True  # Enable global rate limiting
-GLOBAL_REQUEST_INTERVAL = 10.0  # Minimum 10 seconds between any RPC requests
+GLOBAL_REQUEST_INTERVAL = float(os.getenv('REQUEST_INTERVAL', '10.0'))  # Minimum seconds between any RPC requests
 
 # API Usage flags
 USE_SOLSCAN = False  # Disable Solscan API since we don't have a key

@@ -1,0 +1,44 @@
+2024-11-02 19:19:47,857 - INFO - ============================================================
+2024-11-02 19:19:47,857 - INFO - Solana Trading Bot Starting
+2024-11-02 19:19:47,857 - INFO - ============================================================
+2024-11-02 19:19:47,857 - INFO - Mode: RESEARCH
+2024-11-02 19:19:47,857 - INFO - Log file: logs/trading_bot_20241102_191947.log
+2024-11-02 19:19:47,857 - INFO - Log level: INFO
+2024-11-02 19:19:47,857 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 19:19:47,857 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 19:19:47,857 - INFO - ------------------------------------------------------------
+2024-11-02 19:19:47,857 - INFO - Starting in RESEARCH mode...
+2024-11-02 19:19:47,857 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 19:19:47,857 - INFO - Beginning wallet analysis...
+2024-11-02 19:19:47,857 - INFO - 
+================================================================================
+2024-11-02 19:19:47,857 - INFO - STARTING ENHANCED SOLANA WALLET DISCOVERY
+2024-11-02 19:19:47,857 - INFO - ================================================================================
+2024-11-02 19:19:47,857 - INFO - 
+Step 1: Fetching trending pairs...
+2024-11-02 19:19:47,857 - INFO - 
+================================================================================
+2024-11-02 19:19:47,857 - INFO - FETCHING TRENDING PAIRS FROM DEXSCREENER
+2024-11-02 19:19:47,857 - INFO - ================================================================================
+2024-11-02 19:20:42,327 - INFO - 
+Found 1 qualified trading pairs
+2024-11-02 19:20:42,330 - INFO - Filtering criteria:
+2024-11-02 19:20:42,330 - INFO - - Minimum liquidity: $1,000.00
+2024-11-02 19:20:42,330 - INFO - - Minimum daily volume: $1,000.00
+2024-11-02 19:20:42,330 - INFO - - Maximum price impact: 10.0%
+2024-11-02 19:20:42,330 - INFO - 
+Pair: New Kim/SOL
+2024-11-02 19:20:42,330 - INFO - Volume 24h: $94,716.16
+2024-11-02 19:20:42,331 - INFO - Liquidity: $25,721.25
+2024-11-02 19:20:42,331 - INFO - Price Change 24h: -6.3%
+2024-11-02 19:20:42,331 - INFO - ----------------------------------------
+2024-11-02 19:20:42,332 - INFO - 
+Step 2: Analyzing trading activity...
+2024-11-02 19:20:42,334 - ERROR - Error processing pair BWZK867YFhexzESXE2jXayZaMpczvHyjYao47QUq9Ux1: 'Client' object has no attribute 'get_signatures_for_address_async'
+2024-11-02 19:20:42,334 - INFO - 
+Found 0 unique wallet addresses to analyze
+2024-11-02 19:20:42,336 - INFO - 
+Detailed research results saved to: logs/research_20241102_192042.json
+2024-11-02 19:20:42,336 - INFO - Research completed successfully
+2024-11-02 19:20:42,336 - INFO - Results have been saved to the logs directory
+2024-11-02 19:20:42,336 - INFO - Bot shutdown complete

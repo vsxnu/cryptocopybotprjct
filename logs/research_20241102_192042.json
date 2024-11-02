@@ -1,0 +1,89 @@
+{
+  "timestamp": "2024-11-02T19:20:42.334294",
+  "trending_pairs": {
+    "BWZK867YFhexzESXE2jXayZaMpczvHyjYao47QUq9Ux1": {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/bwzk867yfhexzesxe2jxayzampczvhyjyao47quq9ux1",
+      "pairAddress": "BWZK867YFhexzESXE2jXayZaMpczvHyjYao47QUq9Ux1",
+      "baseToken": {
+        "address": "EMNPae1aWA5X84UVjui6iSSe1UjAz8RijM4ZYqwrpump",
+        "name": "$1.9 million pigeon",
+        "symbol": "New Kim"
+      },
+      "quoteToken": {
+        "address": "So11111111111111111111111111111111111111112",
+        "name": "Wrapped SOL",
+        "symbol": "SOL"
+      },
+      "priceNative": "0.0000003590",
+      "priceUsd": "0.00005970",
+      "txns": {
+        "m5": {
+          "buys": 65,
+          "sells": 49
+        },
+        "h1": {
+          "buys": 624,
+          "sells": 425
+        },
+        "h6": {
+          "buys": 624,
+          "sells": 425
+        },
+        "h24": {
+          "buys": 624,
+          "sells": 425
+        }
+      },
+      "volume": {
+        "h24": 94716.16,
+        "h6": 94716.16,
+        "h1": 94716.16,
+        "m5": 11936.38
+      },
+      "priceChange": {
+        "m5": 7.07,
+        "h1": -6.29,
+        "h6": -6.29,
+        "h24": -6.29
+      },
+      "liquidity": {
+        "usd": 25721.25,
+        "base": 215102664,
+        "quote": 77.4492
+      },
+      "fdv": 59706,
+      "marketCap": 59706,
+      "pairCreatedAt": 1730545096000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/EMNPae1aWA5X84UVjui6iSSe1UjAz8RijM4ZYqwrpump.png",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://rarest.org/animals/expensive-racing-pigeons-ever-sold"
+          }
+        ],
+        "socials": [
+          {
+            "type": "telegram",
+            "url": "https://t.me/NewKimCTO"
+          }
+        ]
+      }
+    }
+  },
+  "profitable_wallets": {},
+  "analysis_parameters": {
+    "min_sol_balance": 1.0,
+    "min_trades_day": 2,
+    "min_success_rate": 0.5,
+    "min_profit_trade": 0.01,
+    "analysis_period_days": 7,
+    "token_settings": {
+      "min_liquidity_usd": 1000.0,
+      "max_price_impact": 0.1,
+      "min_daily_volume": 1000.0
+    }
+  }
+}

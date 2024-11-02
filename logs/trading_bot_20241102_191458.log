@@ -1,0 +1,44 @@
+2024-11-02 19:14:58,825 - INFO - ============================================================
+2024-11-02 19:14:58,825 - INFO - Solana Trading Bot Starting
+2024-11-02 19:14:58,825 - INFO - ============================================================
+2024-11-02 19:14:58,825 - INFO - Mode: RESEARCH
+2024-11-02 19:14:58,825 - INFO - Log file: logs/trading_bot_20241102_191458.log
+2024-11-02 19:14:58,825 - INFO - Log level: INFO
+2024-11-02 19:14:58,825 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 19:14:58,825 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 19:14:58,825 - INFO - ------------------------------------------------------------
+2024-11-02 19:14:58,825 - INFO - Starting in RESEARCH mode...
+2024-11-02 19:14:58,825 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 19:14:58,825 - INFO - Beginning wallet analysis...
+2024-11-02 19:14:58,825 - INFO - 
+================================================================================
+2024-11-02 19:14:58,825 - INFO - STARTING ENHANCED SOLANA WALLET DISCOVERY
+2024-11-02 19:14:58,825 - INFO - ================================================================================
+2024-11-02 19:14:58,825 - INFO - 
+Step 1: Fetching trending pairs...
+2024-11-02 19:14:58,825 - INFO - 
+================================================================================
+2024-11-02 19:14:58,825 - INFO - FETCHING TRENDING PAIRS FROM DEXSCREENER
+2024-11-02 19:14:58,825 - INFO - ================================================================================
+2024-11-02 19:16:07,269 - INFO - 
+Found 1 qualified trading pairs
+2024-11-02 19:16:07,271 - INFO - Filtering criteria:
+2024-11-02 19:16:07,271 - INFO - - Minimum liquidity: $1,000.00
+2024-11-02 19:16:07,271 - INFO - - Minimum daily volume: $1,000.00
+2024-11-02 19:16:07,271 - INFO - - Maximum price impact: 10.0%
+2024-11-02 19:16:07,272 - INFO - 
+Pair: dork/SOL
+2024-11-02 19:16:07,272 - INFO - Volume 24h: $1,034,600.75
+2024-11-02 19:16:07,272 - INFO - Liquidity: $27,350.29
+2024-11-02 19:16:07,272 - INFO - Price Change 24h: -6.2%
+2024-11-02 19:16:07,272 - INFO - ----------------------------------------
+2024-11-02 19:16:07,273 - INFO - 
+Step 2: Analyzing trading activity...
+2024-11-02 19:16:07,722 - ERROR - Error processing pair FRGew7ogukJGaokE9rUT8ecNo936rN4cogZctUqikzew: object solders.rpc.responses.GetSignaturesForAddressResp can't be used in 'await' expression
+2024-11-02 19:16:07,722 - INFO - 
+Found 0 unique wallet addresses to analyze
+2024-11-02 19:16:07,724 - INFO - 
+Detailed research results saved to: logs/research_20241102_191607.json
+2024-11-02 19:16:07,725 - INFO - Research completed successfully
+2024-11-02 19:16:07,725 - INFO - Results have been saved to the logs directory
+2024-11-02 19:16:07,725 - INFO - Bot shutdown complete

@@ -1,0 +1,32 @@
+2024-11-02 19:06:25,915 - INFO - ============================================================
+2024-11-02 19:06:25,915 - INFO - Solana Trading Bot Starting
+2024-11-02 19:06:25,915 - INFO - ============================================================
+2024-11-02 19:06:25,915 - INFO - Mode: RESEARCH
+2024-11-02 19:06:25,915 - INFO - Log file: logs/trading_bot_20241102_190625.log
+2024-11-02 19:06:25,915 - INFO - Log level: INFO
+2024-11-02 19:06:25,915 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 19:06:25,915 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 19:06:25,915 - INFO - ------------------------------------------------------------
+2024-11-02 19:06:25,915 - INFO - Starting in RESEARCH mode...
+2024-11-02 19:06:25,915 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 19:06:25,915 - INFO - Beginning wallet analysis...
+2024-11-02 19:06:25,915 - INFO - 
+================================================================================
+2024-11-02 19:06:25,915 - INFO - STARTING ENHANCED SOLANA WALLET DISCOVERY
+2024-11-02 19:06:25,915 - INFO - ================================================================================
+2024-11-02 19:06:25,915 - INFO - 
+Step 1: Fetching trending pairs...
+2024-11-02 19:06:25,915 - INFO - 
+================================================================================
+2024-11-02 19:06:25,916 - INFO - FETCHING TRENDING PAIRS FROM DEXSCREENER
+2024-11-02 19:06:25,916 - INFO - ================================================================================
+2024-11-02 19:06:27,777 - ERROR - DexScreener API error: 404
+2024-11-02 19:06:27,778 - INFO - 
+Step 2: Analyzing trading activity...
+2024-11-02 19:06:27,778 - INFO - 
+Found 0 unique wallet addresses to analyze
+2024-11-02 19:06:27,778 - INFO - 
+Detailed research results saved to: logs/research_20241102_190627.json
+2024-11-02 19:06:27,778 - INFO - Research completed successfully
+2024-11-02 19:06:27,778 - INFO - Results have been saved to the logs directory
+2024-11-02 19:06:27,778 - INFO - Bot shutdown complete

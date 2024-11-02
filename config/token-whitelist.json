@@ -7,8 +7,19 @@
         "ORCA": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"
     },
     "settings": {
-        "min_liquidity_usd": 100000,
-        "max_price_impact": 0.02,
-        "min_daily_volume": 50000
+        "min_liquidity_usd": 1000,
+        "max_price_impact": 10000,
+        "min_daily_volume": 100000,
+        "min_price_change": 10
+    },
+    "comments": {
+        "tokens": "List of whitelisted quote tokens. Only pairs with these quote tokens will be analyzed.",
+        "settings": {
+            "min_liquidity_usd": "Minimum liquidity in USD. Higher values mean more stable trading.",
+            "max_price_impact": "Maximum allowed price impact percentage. Lower values mean more stable price action.",
+            "min_daily_volume": "Minimum 24h trading volume in USD. Higher values mean more active trading.",
+            "min_price_change": "Minimum 24h price change percentage. Higher values find more volatile/trending pairs."
+        },
+        "note": "These settings can be overridden by environment variables in .env file"
     }
 }

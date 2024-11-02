@@ -1,0 +1,182 @@
+2024-11-02 19:38:06,142 - INFO - ============================================================
+2024-11-02 19:38:06,143 - INFO - Solana Trading Bot Starting
+2024-11-02 19:38:06,143 - INFO - ============================================================
+2024-11-02 19:38:06,143 - INFO - Mode: RESEARCH
+2024-11-02 19:38:06,143 - INFO - Log file: logs/trading_bot_20241102_193805.log
+2024-11-02 19:38:06,143 - INFO - Log level: INFO
+2024-11-02 19:38:06,144 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 19:38:06,144 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 19:38:06,144 - INFO - ------------------------------------------------------------
+2024-11-02 19:38:06,144 - INFO - Starting in RESEARCH mode...
+2024-11-02 19:38:06,144 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 19:38:06,144 - INFO - Beginning wallet analysis...
+2024-11-02 19:38:06,144 - INFO - 
+================================================================================
+2024-11-02 19:38:06,144 - INFO - STARTING ENHANCED SOLANA WALLET DISCOVERY
+2024-11-02 19:38:06,144 - INFO - ================================================================================
+2024-11-02 19:38:06,144 - INFO - 
+Step 1: Fetching trending pairs...
+2024-11-02 19:38:06,144 - INFO - 
+================================================================================
+2024-11-02 19:38:06,144 - INFO - FETCHING TRENDING PAIRS FROM DEXSCREENER
+2024-11-02 19:38:06,144 - INFO - ================================================================================
+2024-11-02 19:38:06,144 - INFO - 
+================================================================================
+2024-11-02 19:38:06,144 - INFO - WALLET DISCOVERY CRITERIA
+2024-11-02 19:38:06,144 - INFO - ================================================================================
+2024-11-02 19:38:06,144 - INFO - 
+1. Token Pair Requirements:
+2024-11-02 19:38:06,144 - INFO - ----------------------------------------
+2024-11-02 19:38:06,144 - INFO - • Minimum liquidity: $1,000.00
+2024-11-02 19:38:06,144 - INFO - • Minimum daily volume: $1,000.00
+2024-11-02 19:38:06,144 - INFO - • Maximum price impact: 10.0%
+2024-11-02 19:38:06,144 - INFO - 
+2. Wallet Performance Requirements:
+2024-11-02 19:38:06,144 - INFO - ----------------------------------------
+2024-11-02 19:38:06,144 - INFO - • Minimum SOL balance: 1.0 SOL
+2024-11-02 19:38:06,144 - INFO - • Minimum trades per day: 2
+2024-11-02 19:38:06,144 - INFO - • Minimum success rate: 50.0%
+2024-11-02 19:38:06,144 - INFO - • Minimum profit per trade: 1.0%
+2024-11-02 19:38:06,144 - INFO - • Analysis period: 7 days
+2024-11-02 19:38:06,144 - INFO - 
+3. Whitelisted Tokens:
+2024-11-02 19:38:06,144 - INFO - ----------------------------------------
+2024-11-02 19:38:06,144 - INFO - • SOL: So11111111111111111111111111111111111111112
+2024-11-02 19:38:06,144 - INFO - • USDC: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
+2024-11-02 19:38:06,144 - INFO - • RAY: 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R
+2024-11-02 19:38:06,144 - INFO - • SRM: SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt
+2024-11-02 19:38:06,144 - INFO - • ORCA: orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE
+2024-11-02 19:38:06,249 - INFO - 
+================================================================================
+2024-11-02 19:38:06,249 - INFO - ANALYZING TRADING PAIRS
+2024-11-02 19:38:06,249 - INFO - ================================================================================
+2024-11-02 19:38:06,249 - INFO - 
+Found 17 Solana tokens to analyze
+2024-11-02 19:38:06,290 - INFO - 
+Analyzing pair: PTC/SOL
+2024-11-02 19:38:06,290 - INFO - • Volume 24h: $663,976.20
+2024-11-02 19:38:06,290 - INFO - • Liquidity: $10,182.74
+2024-11-02 19:38:06,290 - INFO - • Price Change 24h: 87.3%
+2024-11-02 19:38:06,290 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:07,084 - INFO - 
+Analyzing pair: RCHAD/SOL
+2024-11-02 19:38:07,085 - INFO - • Volume 24h: $205,168.53
+2024-11-02 19:38:07,085 - INFO - • Liquidity: $36,248.38
+2024-11-02 19:38:07,085 - INFO - • Price Change 24h: 81.8%
+2024-11-02 19:38:07,085 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:08,670 - INFO - 
+Analyzing pair: ZILLA/SOL
+2024-11-02 19:38:08,670 - INFO - • Volume 24h: $829,267.72
+2024-11-02 19:38:08,670 - INFO - • Liquidity: $7,651.08
+2024-11-02 19:38:08,671 - INFO - • Price Change 24h: 92.8%
+2024-11-02 19:38:08,671 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:09,414 - INFO - 
+Analyzing pair: New Kim/SOL
+2024-11-02 19:38:09,414 - INFO - • Volume 24h: $131,404.61
+2024-11-02 19:38:09,414 - INFO - • Liquidity: $17,580.37
+2024-11-02 19:38:09,414 - INFO - • Price Change 24h: 56.6%
+2024-11-02 19:38:09,414 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:11,365 - INFO - 
+Analyzing pair: $SOM/SOL
+2024-11-02 19:38:11,365 - INFO - • Volume 24h: $933,674.02
+2024-11-02 19:38:11,365 - INFO - • Liquidity: $617,386.18
+2024-11-02 19:38:11,365 - INFO - • Price Change 24h: 3106340.0%
+2024-11-02 19:38:11,365 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:11,912 - INFO - 
+Analyzing pair: ALPHA/SOL
+2024-11-02 19:38:11,912 - INFO - • Volume 24h: $985,175.34
+2024-11-02 19:38:11,912 - INFO - • Liquidity: $47,247.08
+2024-11-02 19:38:11,912 - INFO - • Price Change 24h: 181.0%
+2024-11-02 19:38:11,912 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:14,430 - INFO - 
+Analyzing pair: 3DMan/SOL
+2024-11-02 19:38:14,431 - INFO - • Volume 24h: $140,091.01
+2024-11-02 19:38:14,431 - INFO - • Liquidity: $12,787.53
+2024-11-02 19:38:14,431 - INFO - • Price Change 24h: 77.3%
+2024-11-02 19:38:14,432 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:15,058 - INFO - 
+Analyzing pair: Milady/SOL
+2024-11-02 19:38:15,058 - INFO - • Volume 24h: $476,661.01
+2024-11-02 19:38:15,058 - INFO - • Liquidity: $40,546.07
+2024-11-02 19:38:15,059 - INFO - • Price Change 24h: 132.0%
+2024-11-02 19:38:15,059 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:16,722 - INFO - 
+Analyzing pair: RINU/SOL
+2024-11-02 19:38:16,722 - INFO - • Volume 24h: $6,291.92
+2024-11-02 19:38:16,723 - INFO - • Liquidity: $3,376.04
+2024-11-02 19:38:16,723 - INFO - • Price Change 24h: 1022.0%
+2024-11-02 19:38:16,723 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:17,262 - INFO - 
+Analyzing pair: DOGESONS/SOL
+2024-11-02 19:38:17,262 - INFO - • Volume 24h: $258,781.44
+2024-11-02 19:38:17,263 - INFO - • Liquidity: $12,461.15
+2024-11-02 19:38:17,263 - INFO - • Price Change 24h: 79.1%
+2024-11-02 19:38:17,263 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:18,553 - INFO - 
+Analyzing pair: dork/SOL
+2024-11-02 19:38:18,554 - INFO - • Volume 24h: $1,068,161.04
+2024-11-02 19:38:18,554 - INFO - • Liquidity: $25,600.66
+2024-11-02 19:38:18,554 - INFO - • Price Change 24h: 18.4%
+2024-11-02 19:38:18,554 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:22,629 - INFO - 
+Analyzing pair: $LORD/SOL
+2024-11-02 19:38:22,632 - INFO - • Volume 24h: $2,061,825.59
+2024-11-02 19:38:22,632 - INFO - • Liquidity: $28,517.10
+2024-11-02 19:38:22,634 - INFO - • Price Change 24h: 6443.0%
+2024-11-02 19:38:22,634 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:23,169 - INFO - 
+Analyzing pair: DOGG/SOL
+2024-11-02 19:38:23,169 - INFO - • Volume 24h: $54,734.07
+2024-11-02 19:38:23,169 - INFO - • Liquidity: $3,444.90
+2024-11-02 19:38:23,169 - INFO - • Price Change 24h: 259.0%
+2024-11-02 19:38:23,169 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:24,891 - INFO - 
+Analyzing pair: $RELAX/SOL
+2024-11-02 19:38:24,891 - INFO - • Volume 24h: $622,471.18
+2024-11-02 19:38:24,891 - INFO - • Liquidity: $0.00
+2024-11-02 19:38:24,891 - INFO - • Price Change 24h: 100.0%
+2024-11-02 19:38:24,891 - INFO - ✗ Rejected: Low liquidity (minimum $1,000.00)
+2024-11-02 19:38:25,434 - INFO - 
+Analyzing pair: UberJeets/SOL
+2024-11-02 19:38:25,434 - INFO - • Volume 24h: $1,040,682.71
+2024-11-02 19:38:25,434 - INFO - • Liquidity: $0.00
+2024-11-02 19:38:25,434 - INFO - • Price Change 24h: 99.6%
+2024-11-02 19:38:25,434 - INFO - ✗ Rejected: Low liquidity (minimum $1,000.00)
+2024-11-02 19:38:26,830 - INFO - 
+Analyzing pair: DJT47/SOL
+2024-11-02 19:38:26,830 - INFO - • Volume 24h: $39,861.82
+2024-11-02 19:38:26,831 - INFO - • Liquidity: $45,166.50
+2024-11-02 19:38:26,831 - INFO - • Price Change 24h: 180.0%
+2024-11-02 19:38:26,831 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:27,786 - INFO - 
+Analyzing pair: Dale/SOL
+2024-11-02 19:38:27,786 - INFO - • Volume 24h: $592,428.93
+2024-11-02 19:38:27,786 - INFO - • Liquidity: $6,565.90
+2024-11-02 19:38:27,786 - INFO - • Price Change 24h: 94.7%
+2024-11-02 19:38:27,786 - INFO - ✗ Rejected: High price impact (maximum 10.0%)
+2024-11-02 19:38:28,288 - INFO - 
+================================================================================
+2024-11-02 19:38:28,288 - INFO - QUALIFIED TRADING PAIRS SUMMARY
+2024-11-02 19:38:28,288 - INFO - ================================================================================
+2024-11-02 19:38:28,288 - INFO - 
+Found 0 qualified pairs:
+2024-11-02 19:38:28,290 - INFO - 
+================================================================================
+2024-11-02 19:38:28,290 - INFO - ANALYZING TRADING ACTIVITY
+2024-11-02 19:38:28,290 - INFO - ================================================================================
+2024-11-02 19:38:28,290 - INFO - 
+Found 0 unique wallet addresses to analyze
+2024-11-02 19:38:28,290 - INFO - 
+================================================================================
+2024-11-02 19:38:28,291 - INFO - WALLET DISCOVERY SUMMARY
+2024-11-02 19:38:28,291 - INFO - ================================================================================
+2024-11-02 19:38:28,291 - INFO - 
+Analyzed 0 unique wallets
+2024-11-02 19:38:28,291 - INFO - Discovered 0 profitable wallets
+2024-11-02 19:38:28,291 - INFO - 
+No wallets met the profitability criteria
+2024-11-02 19:38:28,293 - INFO - 
+Detailed research results saved to: logs/research_20241102_193828.json
+2024-11-02 19:38:28,294 - INFO - Research completed successfully
+2024-11-02 19:38:28,294 - INFO - Results have been saved to the logs directory
+2024-11-02 19:38:28,294 - INFO - Bot shutdown complete

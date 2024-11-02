@@ -1,0 +1,17 @@
+{
+  "timestamp": "2024-11-02T19:10:29.754342",
+  "trending_pairs": {},
+  "profitable_wallets": {},
+  "analysis_parameters": {
+    "min_sol_balance": 10.0,
+    "min_trades_day": 5,
+    "min_success_rate": 0.7,
+    "min_profit_trade": 0.02,
+    "analysis_period_days": 7,
+    "token_settings": {
+      "min_liquidity_usd": 100000.0,
+      "max_price_impact": 0.02,
+      "min_daily_volume": 50000.0
+    }
+  }
+}

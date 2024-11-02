@@ -1,0 +1,71 @@
+2024-11-02 19:47:03,887 - INFO - ============================================================
+2024-11-02 19:47:03,887 - INFO - Solana Trading Bot Starting
+2024-11-02 19:47:03,887 - INFO - ============================================================
+2024-11-02 19:47:03,887 - INFO - Mode: RESEARCH
+2024-11-02 19:47:03,887 - INFO - Log file: logs/trading_bot_20241102_194703.log
+2024-11-02 19:47:03,887 - INFO - Log level: INFO
+2024-11-02 19:47:03,887 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 19:47:03,887 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 19:47:03,887 - INFO - ------------------------------------------------------------
+2024-11-02 19:47:03,887 - INFO - Starting in RESEARCH mode...
+2024-11-02 19:47:03,887 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 19:47:03,887 - INFO - Beginning wallet analysis...
+2024-11-02 19:47:03,887 - INFO - 
+================================================================================
+2024-11-02 19:47:03,887 - INFO - STARTING ENHANCED SOLANA WALLET DISCOVERY
+2024-11-02 19:47:03,887 - INFO - ================================================================================
+2024-11-02 19:47:03,887 - INFO - 
+Step 1: Fetching trending pairs...
+2024-11-02 19:47:03,887 - INFO - 
+================================================================================
+2024-11-02 19:47:03,887 - INFO - FETCHING TRENDING PAIRS FROM DEXSCREENER
+2024-11-02 19:47:03,887 - INFO - ================================================================================
+2024-11-02 19:47:03,887 - INFO - 
+================================================================================
+2024-11-02 19:47:03,887 - INFO - WALLET DISCOVERY CRITERIA
+2024-11-02 19:47:03,887 - INFO - ================================================================================
+2024-11-02 19:47:03,887 - INFO - 
+1. Token Pair Requirements:
+2024-11-02 19:47:03,887 - INFO - ----------------------------------------
+2024-11-02 19:47:03,887 - INFO - • Minimum liquidity: $1,000.00
+2024-11-02 19:47:03,887 - INFO - • Minimum daily volume: $100,000.00
+2024-11-02 19:47:03,887 - INFO - 
+2. Wallet Performance Requirements:
+2024-11-02 19:47:03,887 - INFO - ----------------------------------------
+2024-11-02 19:47:03,887 - INFO - • Minimum SOL balance: 1.0 SOL
+2024-11-02 19:47:03,888 - INFO - • Minimum trades per day: 2
+2024-11-02 19:47:03,888 - INFO - • Minimum success rate: 50.0%
+2024-11-02 19:47:03,888 - INFO - • Minimum profit per trade: 1.0%
+2024-11-02 19:47:03,888 - INFO - • Analysis period: 7 days
+2024-11-02 19:47:07,410 - ERROR - DexScreener API error: 404
+2024-11-02 19:47:07,410 - ERROR - Response: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /latest/dex/tokens/solana/gainers</pre>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8dc3e3505d2246df',t:'MTczMDU0ODAyNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+2024-11-02 19:47:07,410 - INFO - 
+================================================================================
+2024-11-02 19:47:07,410 - INFO - ANALYZING TRADING ACTIVITY
+2024-11-02 19:47:07,411 - INFO - ================================================================================
+2024-11-02 19:47:07,411 - INFO - 
+Found 0 unique wallet addresses to analyze
+2024-11-02 19:47:07,411 - INFO - 
+================================================================================
+2024-11-02 19:47:07,411 - INFO - WALLET DISCOVERY SUMMARY
+2024-11-02 19:47:07,411 - INFO - ================================================================================
+2024-11-02 19:47:07,411 - INFO - 
+Analyzed 0 unique wallets
+2024-11-02 19:47:07,411 - INFO - Discovered 0 profitable wallets
+2024-11-02 19:47:07,411 - INFO - 
+No wallets met the profitability criteria
+2024-11-02 19:47:07,411 - INFO - 
+Detailed research results saved to: logs/research_20241102_194707.json
+2024-11-02 19:47:07,411 - INFO - Research completed successfully
+2024-11-02 19:47:07,411 - INFO - Results have been saved to the logs directory
+2024-11-02 19:47:07,411 - INFO - Bot shutdown complete

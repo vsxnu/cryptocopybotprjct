@@ -1,102 +1,169 @@
-# Solana Copy Trading Bot
+# Solana Copy Trading Bot (Version 3)
 
 A sophisticated automated trading system that discovers and copies successful Solana traders.
+
+## Version 3 Updates
+
+### Enhanced Configuration System
+- Flexible environment variables for all criteria
+- Token whitelist with configurable settings
+- Improved wallet discovery parameters
+- Rate limiting and monitoring controls
+
+### New Features
+- Trending pair detection
+- Advanced wallet analysis
+- Performance metrics tracking
+- Detailed research reports
 
 ## Project Overview
 
 This Solana Copy Trading Bot:
-- Monitors successful traders' wallets
-- Analyzes their trading patterns
-- Automatically copies their profitable trades
+- Discovers profitable traders automatically
+- Monitors their trading activity
+- Analyzes trading patterns
+- Copies successful trades (optional)
 - Manages risk and portfolio
 
-## Features
+## Configuration Guide
 
-### 1. Real-time Trade Monitoring
-- Monitors specified wallets for trading activity
-- Detects trades across multiple DEXs (Jupiter, Raydium, Orca)
-- Shows trade amounts and token symbols
-- Provides Solscan links for verification
-
-### 2. Wallet Management
-- Supports wallet nicknames for easy identification
-- Configurable monitoring intervals
-- Automatic transaction cleanup
-- Detailed trade logging
-
-### 3. Risk Management
-- Stop-loss and take-profit orders
-- Position size limits
-- Daily exposure limits
-- Slippage control
-
-### 4. Token Management
-Trades whitelisted tokens only:
-- SOL (native token)
-- USDC (stablecoin)
-- RAY (Raydium)
-- SRM (Serum)
-- ORCA (Orca)
-
-## Configuration
-
-### Wallet Configuration (config/tracked-wallets.json)
-```json
-{
-    "wallets": [
-        {
-            "address": "wallet_address_here",
-            "nickname": "Trader1"
-        }
-    ],
-    "settings": {
-        "min_trades": 10,
-        "min_success_rate": 0.7,
-        "min_profit_per_trade": 0.05,
-        "monitoring_interval": 60
-    }
-}
+### 1. Trading Pair Criteria (.env)
+```bash
+# Minimum requirements for trading pairs
+MIN_LIQUIDITY_USD=1000        # Minimum liquidity in USD
+MIN_DAILY_VOLUME=100000       # Minimum 24h trading volume
+MIN_PRICE_CHANGE=10           # Minimum 24h price change percentage
+MAX_PRICE_IMPACT=10000        # Maximum price impact percentage
 ```
 
-### Token Configuration (config/token-whitelist.json)
+### 2. Wallet Finding Criteria (.env)
+```bash
+# Requirements for profitable traders
+MIN_SOL_BALANCE=1.0           # Minimum SOL balance required
+MIN_TRADES_DAY=2              # Minimum trades per day
+MIN_SUCCESS_RATE=0.5          # Minimum success rate (0.5 = 50%)
+MIN_PROFIT_TRADE=0.01         # Minimum profit per trade (0.01 = 1%)
+ANALYSIS_PERIOD_DAYS=7        # Number of days to analyze
+```
+
+### 3. Token Whitelist (config/token-whitelist.json)
 ```json
 {
     "tokens": {
         "SOL": "So11111111111111111111111111111111111111112",
         "USDC": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
-        "RAY": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+        "RAY": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+        "SRM": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
+        "ORCA": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"
     },
     "settings": {
-        "min_liquidity_usd": 100000,
-        "max_price_impact": 0.02,
-        "min_daily_volume": 50000
+        "min_liquidity_usd": 1000,
+        "max_price_impact": 10000,
+        "min_daily_volume": 100000,
+        "min_price_change": 10
+    }
+}
+```
+
+### 4. Monitoring Settings (.env)
+```bash
+# Performance and rate limiting
+MONITORING_INTERVAL=60        # Seconds between monitoring cycles
+MAX_PAIRS_TO_ANALYZE=20      # Maximum number of pairs to analyze
+MAX_WALLETS_TO_ANALYZE=100   # Maximum number of wallets to analyze
+REQUESTS_PER_MINUTE=6        # Maximum RPC requests per minute
+REQUEST_INTERVAL=10          # Seconds between requests
+```
+
+## Operating Modes
+
+### 1. Research Mode
+```bash
+python main.py --mode research
+```
+- Discovers profitable traders
+- Analyzes trading patterns
+- Generates research reports
+- No trading execution
+
+### 2. Monitor Mode
+```bash
+python main.py --mode monitor
+```
+- Tracks discovered traders
+- Real-time trade detection
+- Performance tracking
+- No trade execution
+
+### 3. Trading Mode
+```bash
+python main.py --mode trade
+```
+- Requires private key
+- Copies detected trades
+- Applies risk management
+- Generates reports
+
+## Customizing Criteria
+
+### 1. Adjusting Trading Pair Criteria
+- Higher `MIN_LIQUIDITY_USD`: More stable trading
+- Higher `MIN_DAILY_VOLUME`: More active pairs
+- Higher `MIN_PRICE_CHANGE`: More volatile pairs
+- Lower `MAX_PRICE_IMPACT`: More stable prices
+
+### 2. Tuning Wallet Discovery
+- Higher `MIN_SOL_BALANCE`: More established traders
+- Higher `MIN_TRADES_DAY`: More active traders
+- Higher `MIN_SUCCESS_RATE`: More successful traders
+- Higher `MIN_PROFIT_TRADE`: More profitable traders
+
+### 3. Optimizing Performance
+- Lower `MONITORING_INTERVAL`: More frequent updates
+- Lower `MAX_PAIRS_TO_ANALYZE`: Faster analysis
+- Lower `MAX_WALLETS_TO_ANALYZE`: Faster processing
+- Higher `REQUESTS_PER_MINUTE`: Faster updates (careful with RPC limits)
+
+## Research Reports
+
+The bot generates detailed research reports in JSON format:
+```json
+{
+    "timestamp": "2024-11-02T20:00:00",
+    "trending_pairs": {
+        "pair_address": {
+            "baseToken": {"symbol": "TOKEN"},
+            "volume": {"h24": 1000000},
+            "liquidity": {"usd": 500000},
+            "priceChange": {"h24": 15.5}
+        }
+    },
+    "profitable_wallets": {
+        "wallet_address": {
+            "sol_balance": 10.5,
+            "trades_per_day": 5.2,
+            "success_rate": 0.75,
+            "profit_rate": 0.12,
+            "total_trades": 100
+        }
     }
 }
 ```
 
 ## Getting Started
 
-1. Create .env file:
+1. Copy example configuration:
 ```bash
-touch .env
+cp .env.example .env
 ```
 
-2. Configure environment variables:
+2. Configure environment variables in .env:
 ```bash
-# Required API Connections
+# Required
 SOLANA_RPC_URL=your_rpc_url_here
-BIRDEYE_API_KEY=your_birdeye_api_key_here
 
-# Optional: Private key for executing trades
-# PRIVATE_KEY=your_private_key_here
-
-# Trading Parameters
-MAX_SLIPPAGE=1.0
-MIN_PROFIT_THRESHOLD=1.5
-MAX_POSITION_SIZE=10.0
-STOP_LOSS_PERCENTAGE=2.0
-TAKE_PROFIT_PERCENTAGE=3.0
-MAX_TRADES_PER_DAY=10
+# Optional
+PRIVATE_KEY=your_private_key_here  # For trading mode only
 ```
 
 3. Install dependencies:
@@ -104,81 +171,32 @@ MAX_TRADES_PER_DAY=10
 pip install -r requirements.txt
 ```
 
-4. Run the bot:
+4. Start in research mode:
 ```bash
-python main.py
+python main.py --mode research
 ```
-
-## Monitoring Output
-
-The bot provides detailed trade information:
-```
-Trade detected:
-  Trader: Trader1 (5ZPBHz...)
-  DEX: Jupiter
-  Amount: 1.2345 SOL
-  Transaction: https://solscan.io/tx/...
-```
-
-## Operating Modes
-
-### Monitor Only Mode
-- Runs without a private key
-- Tracks trades in real-time
-- Provides detailed logging
-- No actual trading
-
-### Trading Mode (requires private key)
-- Automatically copies detected trades
-- Applies risk management rules
-- Manages positions
-- Generates performance reports
 
 ## Security Notes
 
 - Never share your .env file
 - Keep private keys secure
-- Start with small amounts for testing
-- Monitor the bot's performance regularly
-
-## Performance Reports
-
-The bot generates monitoring reports in monitoring_report.json:
-```json
-{
-    "monitored_wallets": [
-        {
-            "address": "wallet_address",
-            "nickname": "Trader1"
-        }
-    ],
-    "processed_transactions": 100,
-    "trading_enabled": false,
-    "monitoring_interval": 60,
-    "timestamp": "2024-11-02 07:25:49"
-}
-```
-
-## Rate Limiting and Error Handling
-
-The bot implements:
-- Configurable request rate limiting
-- Retry logic with exponential backoff
-- Error handling for RPC failures
-- Automatic request throttling
+- Start with research mode
+- Test with small amounts
+- Monitor performance regularly
 
 ## Dependencies
 
 - solana-py: Solana blockchain interaction
 - python-dotenv: Environment management
-- requests: API communication
-- pandas: Data analysis
-- logging: Error tracking and reporting
+- aiohttp: Async HTTP requests
+- logging: Error tracking
 
-## Recommendations
+## Best Practices
 
-1. Use a dedicated RPC endpoint for reliability
-2. Monitor logs for trade detection
-3. Start in monitor-only mode
-4. Test with small amounts when trading
-5. Regularly check performance reports
+1. Start with research mode to discover traders
+2. Adjust criteria based on market conditions
+3. Monitor logs for trade detection
+4. Review research reports regularly
+5. Test strategies with small amounts
+6. Keep configuration files backed up
+7. Monitor system resources and RPC usage

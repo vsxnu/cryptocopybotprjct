@@ -1,0 +1,37 @@
+2024-11-02 19:09:15,044 - INFO - ============================================================
+2024-11-02 19:09:15,044 - INFO - Solana Trading Bot Starting
+2024-11-02 19:09:15,044 - INFO - ============================================================
+2024-11-02 19:09:15,044 - INFO - Mode: RESEARCH
+2024-11-02 19:09:15,045 - INFO - Log file: logs/trading_bot_20241102_190914.log
+2024-11-02 19:09:15,045 - INFO - Log level: INFO
+2024-11-02 19:09:15,045 - INFO - Python version: 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]
+2024-11-02 19:09:15,045 - INFO - Working directory: /Users/vishnuvardhanmedara/Desktop/CyptoCopyBotPrjct
+2024-11-02 19:09:15,045 - INFO - ------------------------------------------------------------
+2024-11-02 19:09:15,045 - INFO - Starting in RESEARCH mode...
+2024-11-02 19:09:15,045 - INFO - This mode will analyze trading patterns and log findings without executing trades
+2024-11-02 19:09:15,045 - INFO - Beginning wallet analysis...
+2024-11-02 19:09:15,045 - INFO - 
+================================================================================
+2024-11-02 19:09:15,045 - INFO - STARTING ENHANCED SOLANA WALLET DISCOVERY
+2024-11-02 19:09:15,045 - INFO - ================================================================================
+2024-11-02 19:09:15,045 - INFO - 
+Step 1: Fetching trending pairs...
+2024-11-02 19:09:15,045 - INFO - 
+================================================================================
+2024-11-02 19:09:15,045 - INFO - FETCHING TRENDING PAIRS FROM DEXSCREENER
+2024-11-02 19:09:15,045 - INFO - ================================================================================
+2024-11-02 19:10:29,751 - INFO - 
+Found 0 qualified trading pairs
+2024-11-02 19:10:29,753 - INFO - Filtering criteria:
+2024-11-02 19:10:29,753 - INFO - - Minimum liquidity: $100,000.00
+2024-11-02 19:10:29,753 - INFO - - Minimum daily volume: $50,000.00
+2024-11-02 19:10:29,753 - INFO - - Maximum price impact: 2.0%
+2024-11-02 19:10:29,754 - INFO - 
+Step 2: Analyzing trading activity...
+2024-11-02 19:10:29,754 - INFO - 
+Found 0 unique wallet addresses to analyze
+2024-11-02 19:10:29,755 - INFO - 
+Detailed research results saved to: logs/research_20241102_191029.json
+2024-11-02 19:10:29,755 - INFO - Research completed successfully
+2024-11-02 19:10:29,755 - INFO - Results have been saved to the logs directory
+2024-11-02 19:10:29,755 - INFO - Bot shutdown complete
